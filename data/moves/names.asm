@@ -194,7 +194,7 @@ VICEGRIPName:
 GUILLOTINEName:
 	db "GUILLOTINE@"
 RAZORWINDName:
-	db "ATTERRISSAGE@" ; changed from RAZOR WIND
+	db "ATTERRISSAGE@" ; changed from COUPE-VENT
 SWORDSDANCEName:
 	db "DANSE-LAMES@"
 CUTName:
@@ -210,7 +210,7 @@ FLYName:
 BINDName:
 	db "ETREINTE@"
 SLAMName:
-	db "FRAP'TOXIK@" ; changed from SLAM
+	db "FRAP'TOXIK@" ; changed from SOUPLESSE
 VINEWHIPName:
 	db "FOUET LIANES@"
 STOMPName:
@@ -240,7 +240,7 @@ BODYSLAMName:
 WRAPName:
 	db "LIGOTAGE@"
 TAKEDOWNName:
-	db "COUP D'CHAUD@" ; changed from TAKE DOWN
+	db "COUP D'CHAUD@" ; changed from BELIER
 THRASHName:
 	db "MANIA@"
 DOUBLEEDGEName:
@@ -304,7 +304,7 @@ SUBMISSIONName:
 LOWKICKName:
 	db "BALAYAGE@"
 COUNTERName:
-	db "VAMPI-POING@" ; changed from COUNTER
+	db "VAMPI-POING@" ; changed from RIPOSTE
 SEISMICTOSSName:
 	db "FRAPPE ATLAS@"
 STRENGTHName:
@@ -432,11 +432,11 @@ SKULLBASHName:
 SPIKECANNONName:
 	db "PICANON@"
 CONSTRICTName:
-	db "VAMPI-STATIK@" ; changed from CONSTRICT
+	db "VAMPI-STATIK@" ; changed from CONSTRICTION
 AMNESIAName:
 	db "AMNESIE@"
 KINESISName:
-	db "MUR DE FEU@" ; changed from KINESIS
+	db "MUR DE FEU@" ; changed from TELEKINESIE
 SOFTBOILEDName:
 	db "E-COQUE@"
 HIJUMPKICKName:
@@ -476,7 +476,7 @@ CRABHAMMERName:
 EXPLOSIONName:
 	db "EXPLOSION@"
 FURYSWIPESName:
-	db "GRIFFE-SABLE@" ; changed from FURY SWIPES
+	db "GRIFFE-SABLE@" ; changed from COMBO-GRIFFE
 BONEMERANGName:
 	db "OSMERANG@"
 RESTName:
