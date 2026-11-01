@@ -398,84 +398,83 @@ Les Poké Balls n'ont jamais été aussi personnalisables ! DEVENEZ DESIGNER DE 
 
 ![Seafoam Currents](/screenshots/seafoam_currents.png?raw=true)
 
+## Corrections de bugs
+- Les dégâts de recul de PIED VOLTIGE / PIED SAUTE en cas d'échec infligent désormais davantage de dégâts (1/4 des dégâts qui auraient été infligés à l'adversaire).
+- PUISSANCE augmente désormais correctement le taux de coups critiques (multiplié par 4 au lieu d'être divisé par 4).
+- Les bonus de Badge ne sont plus appliqués plusieurs fois à chaque statistique lors de l'utilisation ou de la réception d'une capacité modifiant les statistiques.
+- Les baisses de Vitesse et d'Attaque dues respectivement à la paralysie et à la brûlure ne sont plus appliquées plusieurs fois lors de l'utilisation ou de la réception d'une capacité modifiant les statistiques.
+- Après avoir soigné une paralysie ou une brûlure avec un objet, les statistiques de Vitesse ou d'Attaque retrouvent correctement leurs valeurs initiales.
+- Le cri de Nidorino est désormais correctement joué lors de l'introduction du Professeur Chen, au lieu de celui de Nidorina.
+- Les capacités de soin comme SOIN n'échouent plus à tort lorsqu'elles restaurent exactement 255 PV.
+- Les modifications des options du jeu depuis le menu principal (Continuer / Nouvelle partie / Options) sont désormais immédiatement enregistrées dans la sauvegarde en quittant le menu Options. (Auparavant, elles n'étaient enregistrées qu'après une sauvegarde effectuée en jeu.)
+- Le bug permettant de contourner l'utilisation des Pierres évolutives a été supprimé : vous devez désormais utiliser une Pierre évolutive pour faire évoluer les Pokémon concernés.
+- Gagner suffisamment d'expérience pour sauter un niveau ne fait plus manquer la capacité que le Pokémon aurait pu apprendre à ce niveau.
+- L'apprentissage de capacités après une évolution fonctionne désormais correctement.
+- Evoli apprend désormais toujours une capacité propre à son type lors de son évolution, quel que soit son niveau au moment de celle-ci.
+- Les bonus de statistiques de MUR LUMIERE et de PROTECTION sont plafonnés à 999 afin d'éviter les dépassements de capacité.
+- Major Bob indique que le Badge Foudre augmente la Vitesse, mais le code augmentait en réalité la Défense. Il augmente désormais bien la Vitesse, comme indiqué dans le texte.
+- Koga indique que le Badge Âme augmente la Défense, mais le code augmentait en réalité la Vitesse. Il augmente désormais bien la Défense, comme indiqué dans le texte.
+- Lorsqu'un Pokémon apprenait une nouvelle capacité en combat, le bruitage « Pouf ! » ne fonctionnait pas correctement et était remplacé par un son aléatoire. Il fonctionne désormais correctement.
+- Lorsque vous êtes transformé en un autre Pokémon grâce à MORPHING, vous ne pouvez plus permuter l'emplacement de vos capacités. Cela provoquait des bugs pouvant entraîner un plantage du jeu.
+- Les personnages non-joueurs respectent désormais correctement leurs orientations programmées (face, gauche, etc.).
+- L'animation de DAMOCLES lorsqu'elle est utilisée par l'adversaire a été corrigée.
+- Perdre tous ses Pokémon dans le Parc Safari ne provoque plus de bug du jeu.
+- Tenter de remplacer le Pokémon actuellement au combat ou un Pokémon K.O. ne provoque plus un petit bug visuel.
+- Un petit bug de détection des collisions dans la Caverne Azurée a été corrigé.
+- Les ralentissements causés par le remplacement des blocs de décor lors du chargement d'une carte ont été considérablement réduits.
+- Les effets sonores joués pendant les dialogues fonctionnent désormais correctement lorsque l'option de texte instantané est activée.
+- Les blocs de décor ne présentent plus occasionnellement de changement visuel lors du chargement d'une carte.
+- Utiliser CLONAGE avec exactement le nombre de PV nécessaire ne met plus votre Pokémon K.O. Il lui reste désormais 1 PV.
+- L'écran ne clignote plus en blanc pendant une image lors de l'entrée dans un combat ou un bâtiment sur Game Boy originale ou Game Boy Color.
+- La POKéFLUTE détecte désormais correctement les Pokémon sauvages endormis lorsqu'elle est utilisée en combat.
+- Sur Game Boy originale, les portraits des Dresseurs qui défilent au début du combat apparaissent désormais sous forme de silhouettes, comme sur Super Game Boy et Game Boy Color.
+- Le panneau de la Route 17 peut désormais être lu depuis le dessous.
+- Il n'est plus possible de se retrouver bloqué par le cambrioleur au 3e étage du Manoir Pokémon.
+- Si tous vos Pokémon sont K.O. à l'exception de celui actuellement au combat, le mode CHOIX ne vous demande plus si vous souhaitez changer de Pokémon avant que l'adversaire en envoie un autre.
+- Le LOKHLASS du zoo de Parmanie peut désormais nager dans son bassin, comme cela était prévu dans le code.
+- Les capacités empêchant la fuite n'infligent plus de dégâts continus par erreur aux Pokémon qui y sont immunisés. Exemple : LIGOTAGE contre un Pokémon Spectre.
+- Dans le jeu original, si vous ou votre adversaire vous blessiez dans votre confusion ou étiez totalement paralysé pendant l'utilisation de TUNNEL ou VOL, le Pokémon pouvait rester dans un état invulnérable, rendant toutes les attaques inefficaces. Ce bug a été corrigé dans les combats Link et ne se produit plus sur les Pokémon adverses en jeu normal. Cependant, puisqu'il s'agit d'un bug amusant, il peut toujours se produire sur le joueur : vous deviendrez alors invulnérable.
+- Dans le jeu original, si votre adversaire utilisait LILLIPUT ou CLONAGE, que vous ouvriez le menu COMBAT, le quittiez, ouvriez le menu équipe Pokémon, consultiez l'écran de statut d'un Pokémon puis reveniez au combat, le sprite adverse était complètement déformé. Ce bug a été corrigé.
+- Effectuer la même manipulation que ci-dessus contre un SPECTRE non identifié révélait son identité. Ce n'est désormais plus le cas.
+- Après avoir sauvegardé dans le Tunnel, passer de l'écran-titre à l'écran Continuer, puis revenir à l'écran-titre et retourner à l'écran Continuer assombrissait ses couleurs. Elles restent désormais normales.
+- Les capacités drainant des PV échouent désormais contre les Pokémon protégés par CLONAGE, comme cela était initialement prévu dans le code.
+- Utiliser COPIE après un changement de Pokémon adverse ne copie plus systématiquement la capacité dans le deuxième emplacement, quel que soit votre choix.
+- Utiliser COPIE après un changement de Pokémon adverse ne perturbe plus temporairement l'interface du combat.
 
-## Bugfixes
-- High Jump Kick / Jump Kick crash damage on missing does more damage instead of 1 damage always now. (1/4 the damage of what it would have done to the opponent)
-- Focus Energy actually works as intended now (multiplies critical hit rate by 4 instead of dividing it by 4)
-- Badge boosts aren't repeatedly applied to every stat when you use or are afflicted by a stat modifier move.
-- Speed decrease / Attack decrease caused by paralysis and burn statuses aren't repeatedly applied on being hit by or using a stat modifier move.
-- After healing Paralysis/Burn with an item, speed or attack stats will be correctly reset to their original values
-- Nidorino's cry plays correctly in Oak's introduction instead of nidorina's
-- Healing moves like Recover won't fail incorrectly when restoring exactly 255 HP.
-- Changing the game's options from the Main Menu (Continue/New Game/Options) will save the changes to your save file immediately on exiting the options menu. (Before it wouldn't save unless you saved game in-game after changing them)
-- The evolution stone item bypass glitch was removed - you must use evolution stones to evolve stone evolution pokemon.
-- Skipping a level due to gaining a lot of experience won't skip the move you could have learned on the skipped level anymore
-- Learning moves after evolution works correctly now.
-- Eevee will always learn a type-specific move on evolution regardless of the level it is evolved at
-- Cap light screen / reflect stat boosts to 999 to prevent overflows
-- LT Surge says the Thunderbadge boosts speed, but in the code it actually boosted defence. Now it boosts speed as text indicated.
-- Koga says the Soulbadge boosts defense, but in the code it actually boosted speed. Now it boosts defense as the text indicated.
-- When learning a new move in battle, the "Poof!" sound effect didn't work correctly and would play a random sound instead. Now it works.
-- While transformed into another pokemon via TRANSFORM, you cannot swap your move positions anymore - allowing this caused glitches that end with the game crashing
-- NPCs won't rarely disobey their facing behavioural assignments (facing forward, left, etc.)
-- Double Edge animation appearance when opponent uses it fixed
-- Blacking out in the Safari Zone won't glitch the game out
-- Trying to switch to the current pokemon or a fainted one won't trigger a small visual glitch
-- A small collision detection bug in cerulean cave was fixed
-- Lagginess caused by tile block replacements when loading a map was reduced greatly
-- Sound effects during text will play properly now when you have instant text setting turned on
-- You won't occasionally see a tile block being replaced visually on loading a map anymore
-- Using substitute with exactly the right health to use substitute won't cause your pokemon to faint. Instead you will have 1HP left.
-- The screen won't flash white for 1 frame on entering a battle or a building on original gameboy or on GBC.
-- Pokeflute will correctly detect sleeping wild pokemon when used in battle.
-- On original gameboy, while scrolling the trainer pics across at the start of the battle, they will be silhouettes like on SGB or GBC.
-- Route 17 sign can now be read from below.
-- Can't get blocked by the burglar on Pokemon Mansion 3F
-- If all your pokemon are fainted except for the current one, SHIFT mode won't ask you if you want to switch pokemon before the opponent sends out their next pokemon.
-- The LAPRAS npc in the fuchsia city zoo can now swim around its enclosure like it was coded to be able to.
-- Trapping moves won't erroneously still do ongoing damage to pokemon who are immune. Example: Wrap on a ghost pokemon.
-- In the original game if you or your opponent hurts theirself in confusion or is fully paralyzed while digging or flying, the pokemon will be stuck in an invulnerable state, making all attacks miss. This was fixed so it doesn't happen in link battles, and in normal gameplay, doesn't happen to enemy pokemon. But since it's a funny bug, it can still happen to the player - you will become invulnerable if this bug happens to you.
-- In the original game, if your opponent used minimize or substitute, you opened your FIGHT menu, exited, went to PARTY, looked at a pokemon's status menu, then returned to the fight, the opponent's sprite would be all messed up. Now it's fixed and doesn't do that.
-- Doing the same thing as the above on unidentified GHOSTS would reveal what pokemon they are. Now it doesn't.
-- After saving in rock tunnel, going title screen -> continue screen -> title screen -> continue screen will cause the continue screen to take on darker colors. Now it stays normal colors.
-- Draining moves now miss on substituted pokemon as originally intended in the code.
-- Using COPIE after an opponent switched pokemon won't always copy the move to move slot 2 regardless of the player's choice.
-- Using COPIE after an opponent switched pokemon won't mess up the battle HUD temporarily.
-
-## Tweaks
-- Trainers in general have a bit less type-specific parties and more varied pokemon. 
-- Gym leaders teams are still type specific but might have 1 or two new/different pokemon.
-- Your rival uses various teams throughout the game but keeps his starter pokemon.
-- 1 of each elemental stone is hidden before rock tunnel
-- Potion heals 50HP
-- Super Potion heals 100HP
-- HMs don't prevent a pokemon from being put into the daycare
-- Saffron City is after Celadon City in the "Fly order" instead of after indigo plateau for some reason
-- The vermilion gym puzzle won't reset if you choose the wrong second switch. RNG time waster be gone!
-- The "teleport" flag is set when you fly to a city or enter a pokemon center.
-- Moved the cut tree on route 9 to the right slightly to allow tree clearing code to run instantly on transitioning to that route instead of while you are looking at the cut tree.
-- Moved the ridge below the daycare down a block to prevent accidentally jumping off of it
-- OLD ROD can catch goldeen as well as magikarp now
-- GOOD ROD can catch a bunch of water pokemon, what you get depends on if you fish in the sea or in a pond/lake.
-- SUPER ROD can catch higher level pokemon - or if you have the feature enabled, is the only way to catch specific alternate palette water pokemon in specific places! Time to hunt for a blue goldeen!
-- Vitamins like HP Up are about 3 times as effective
-- PP Up maxes out PP for a move in one usage
-- Snorlax, Slowpoke, and Slowbro move slowly in the party menu regardless of their HP level
-- Lance will now turn to face you when you are about to fight him, and you will turn to face him.
-- Coastal water tiles will now load water encounters EXCEPT on route 20 to facilitate the original Missingno Encounter method.
-- The "star shaped grass" tile in viridian forest and the safari zone now loads encounters correctly.
-- Every badge will raise the level traded pokemon will obey you by 10 up until the marshbadge, instead of by 20 levels every 2 badges. The badge explanation text is unchanged, however. This is just for easier usage of in-game traded pokemon during a normal playthrough.
-- Unused text about Porygon was added to the computer monitor on Silph Co 11F.
-- New text entries were added to objects where there was previously either nothing at all or generic reused text in some cases. (Example: some trash cans in peoples house's now have unique text)
-- You can use a larger variation of characters in pokemon/player nicknames.
-- In the original game, if you open the OPTIONS menu in rock tunnel while it's dark, the menu will also be dark. Now it's normal colors.
-- Pokemon Center nurses will now recognize you became the CHAMP and treat you a bit differently. You are famous!
-- Some trainers that say things that don't make sense after you defeat the gym leader in the gym they reside in had their text adjusted to reflect that you defeated the gym leader. (3 in Vermilion Gym, 1 in Celadon Gym, 1 in Fuchsia Gym)
-- Mr Psychic now requires you to defeat the FIGHTING DOJO before he gives you the PSYCHIC TM.
-- In-game trade trainers will now have unique OT names instead of just TRAINER for all of them.
-- The SAFARI ZONE warden will say different things to you if you've gotten HM03 instead of telling you to get it when you already have.
-- The SAFARI BALL was given a ball factor of 1, making it better at catching pokemon at full health.
-- When walking to leave, your rival in Silph Co will visibly "Warp away" when he hits the warp tile instead of just disappearing.
+## Changements
+- Les Dresseurs ont généralement des équipes un peu moins spécialisées dans un type et des Pokémon plus variés.
+- Les équipes des Champions d'Arène restent spécialisées dans un type, mais peuvent comporter un ou deux Pokémon nouveaux ou différents.
+- Votre rival utilise différentes équipes tout au long du jeu, mais conserve son Pokémon de départ.
+- Une pierre de chaque type élémentaire est cachée avant le Tunnel.
+- La Potion soigne 50 PV.
+- La Super Potion soigne 100 PV.
+- Les CS n'empêchent plus un Pokémon d'être placé à la Pension.
+- Safrania se trouve après Céladopole dans l'ordre des destinations de Vol, au lieu de se trouver après le Plateau Indigo pour une raison quelconque.
+- Le mécanisme de l'Arène de Carmin sur Mer ne se réinitialise plus si vous choisissez le mauvais deuxième interrupteur. Fini de perdre du temps à cause du hasard !
+- Le drapeau « Téléportation » est désormais activé lorsque vous utilisez Vol vers une ville ou que vous entrez dans un Centre Pokémon.
+- L'arbre à couper sur la Route 9 a été légèrement déplacé vers la droite afin que le code permettant de dégager l'arbre s'exécute instantanément lors de votre arrivée sur cette route, plutôt que pendant que vous regardez l'arbre à couper.
+- La corniche située sous la Pension a été abaissée d'une case afin d'éviter de sauter accidentellement dans le vide.
+- La CANNE permet désormais de pêcher des Poissirène en plus des Magicarpe.
+- La SUPER CANNE permet de pêcher de nombreux Pokémon aquatiques. Les Pokémon obtenus dépendent de l'endroit où vous pêchez : en mer ou dans un étang ou un lac.
+- La MEGA CANNE permet de pêcher des Pokémon de niveau supérieur ou, si cette fonctionnalité est activée, constitue le seul moyen de capturer certains Pokémon aquatiques aux palettes de couleurs alternatives dans des lieux précis ! Il est temps de partir à la recherche d'un Poissirène bleu !
+- Les vitamines comme le PV PLUS sont environ trois fois plus efficaces.
+- Le PP PLUS augmente au maximum les PP d'une capacité en une seule utilisation.
+- Ronflex, Ramoloss et Flagadoss se déplacent lentement dans le menu de l'équipe, quel que soit leur nombre de PV.
+- Peter se tournera désormais vers vous lorsque vous serez sur le point de l'affronter, et vous vous tournerez également vers lui.
+- Les cases de rives d'eau déclenchent désormais des rencontres avec des Pokémon aquatiques, SAUF sur la Route 20, afin de préserver la méthode originale de rencontre avec MissingNo.
+- La case d'herbe en forme d'étoile dans la Forêt de Jade et le Parc Safari déclenche désormais correctement des rencontres avec des Pokémon.
+- Chaque Badge augmente désormais de 10 niveaux le niveau des Pokémon échangés qui vous obéissent, jusqu'au Badge Âme, au lieu d'une augmentation de 20 niveaux tous les deux Badges. Le texte explicatif des Badges reste toutefois inchangé. Cette modification vise simplement à faciliter l'utilisation des Pokémon obtenus par échange dans le jeu au cours d'une partie normale.
+- Un texte inutilisé concernant Porygon a été ajouté à l'écran d'ordinateur du 11e étage de la Sylphe SARL.
+- De nouveaux textes ont été ajoutés à des objets qui n'avaient auparavant aucun texte ou qui réutilisaient parfois des textes génériques. (Exemple : certaines poubelles dans les maisons des habitants possèdent désormais un texte qui leur est propre.)
+- Vous pouvez désormais utiliser un plus grand choix de caractères dans les surnoms des Pokémon et du joueur.
+- Dans le jeu original, si vous ouvriez le menu OPTIONS dans une GROTTE alors qu'il faisait sombre, le menu était également sombre. Il affiche désormais ses couleurs normales.
+- Les infirmières des Centres Pokémon vous reconnaîtront désormais après votre victoire à la Ligue et vous traiteront un peu différemment. Vous êtes célèbre !
+- Le texte de certains Dresseurs qui disaient des choses incohérentes après votre victoire contre le Champion de l'Arène dans laquelle ils se trouvent a été modifié pour tenir compte de votre victoire (3 dans l'Arène de Carmin sur Mer, 1 dans l'Arène de Céladopole et 1 dans l'Arène de Parmanie).
+- M.Psy exige désormais que vous battiez le DOJO KARATE avant de vous donner la CT PSYKO.
+- Les Dresseurs qui proposent des échanges dans le jeu possèdent désormais chacun un DO unique au lieu d'avoir simplement le nom DRESSEUR.
+- Le gardien du PARC SAFARI vous adressera des paroles différentes si vous avez déjà obtenu la CS03, au lieu de vous demander de la récupérer alors que vous la possédez déjà.
+- La SAFARI BALL possède désormais un coefficient de capture de 1, ce qui la rend plus efficace pour capturer des Pokémon ayant tous leurs PV.
+- Lorsque vous vous dirigez vers la sortie, votre rival dans la Sylphe SARL effectue désormais une "téléportation" visuelle lorsqu'il atteint la case de téléportation, au lieu de simplement disparaître.
 
 ## Modifications des capacités
 - ENTRAVE empêche l'adversaire d'utiliser la capacité qu'il avait précédemment sélectionnée. S'il n'a pas encore choisi de capacité, une capacité aléatoire est sélectionnée à la place. Précision : 85 %. Dure de 2 à 7 tours.
@@ -596,7 +595,7 @@ Cela rend notamment Ectoplasma plus utile, tout en permettant aux Pokémon physi
 - Un effet sonore est joué lorsque Léo entre dans le téléporteur.
 - Un effet sonore est joué lorsque vous utilisez un PP Plus pour augmenter les PP max d'une capacité.
 
-## Visuels de Pokémon Midori
+## Visuels de Pokémon Midori (Version Verte)
 Les éléments visuels propres à la version japonaise Pokémon Midori (version Verte) ont été intégrés dans VertPur.
 - Machines à sous
 
