@@ -15,7 +15,7 @@ Si vous voulez des informations sur le jeu pendant que vous le jouez (par exempl
 
 Si vous rencontrez un bug ou un problème lié à la traduction française, signalez-le [**ici**](https://discord.com/channels/1558849314644697238/1558851662221672489) (serveur discord PurRVB).
 
-Pour tout autre bug ou problème en jeu, signalez-le [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=&template=blank_issue.md). (Dépôt pureRGB de Vortyne).
+Pour tout autre bug ou problème en jeu, signalez-le [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=&template=blank_issue.md) (Dépôt pureRGB de Vortyne).
 
 Si vous avez terminer cette romhack et voulez laisser un avis, vous pouvez le faire [**ici**](https://github.com/Vortyne/pureRGB/issues/new?assignees=&labels=review&projects=&template=review.yml&title=%5BReview%5D%3A+Summarize+your+review+here).
 

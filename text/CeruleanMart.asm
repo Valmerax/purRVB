@@ -22,7 +22,7 @@ _CeruleanMartCooltrainerFText::
 
 _TMKidGreet::
 	text "Yo! C'est moi!"
-	line "Le pirate des <CT>!"
+	line "Le pirate <CT>!"
 	prompt
 
 _IndigoPlateauGymGuideSonShopStart::
