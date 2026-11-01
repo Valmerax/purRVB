@@ -1,80 +1,90 @@
-# Full Features / Bugfixes List
+# Liste complète des fonctionnalités / Corrections de bugs
 
 ![covers](/box_art/PureRGB_Covers.png?raw=true)
 
-The only version differences between PureRed / PureBlue / PureGreen are visual. Play whatever color you like the most. All 151 Pokemon are obtainable without trading.
+Les seules différences entre RougePur, VertPur et BleuPur sont visuelles. Jouez avec la couleur que vous préférez ! Les 151 Pokémon sont tous obtenables sans échange.
 
-## New Options in the Options Menu
-Many options have been added to the game's options menu. To be clear, there are **5 pages of options** now. **Use the Next button on the options page** to cycle through the pages when in-game.
+## Nouvelles options dans le menu Options
+De nombreuses options ont été ajoutées au menu Options du jeu. Pour être clair, il y a désormais **5 pages d'options**. **Utilisez le bouton Suivant dans le menu Options** pour passer d'une page à l'autre.
 
-You can press SELECT to get an explanation of the current option in any option menu.
+Vous pouvez appuyer sur SELECT pour obtenir une explication de l'option sélectionnée dans n'importe quel menu d'options.
 
-The first page contains the original game's options. Text speed has an "Instant" option now, and the "Slow" option is now the original game's "Medium". The game defaults to "Fast" speed. Other than that, the way Battle Style and Battle Animations options work haven't changed.
+La première page contient les options du jeu original. La vitesse du texte dispose désormais d'une option "INSTANT" (Instantané), et l'option "LENT" correspond maintenant à la vitesse "Moyenne" du jeu original. Par défaut, la vitesse est réglée sur "VITE" (Rapide). À part cela, le fonctionnement des options ANIMATION COMBAT et STYLE COMBAT n'a pas changé.
 
 ![Options First Page](/screenshots/options_page_1.png?raw=true) 
 
-The second page contains new big features related to general gameplay. 
+La deuxième page contient de nouvelles fonctionnalités importantes liées au gameplay général.
 
 ![Options Second Page](/screenshots/options_page_2.png?raw=true)
-  - The first option, `COLORS` will cycle between color palette options of the game. These only apply if you're playing on a system that supports color, like GBC, GBA, Super Gameboy, etc. Important to note: On Super Gameboy after changing this setting you will need to save and restart the game to apply the change. On GBC and GBA it's instant.
-    - `OG`: Default color setting. The game will use whatever colors it originally would have had on the system you're playing on. In the case of GBC or GBA, this is a hardcoded limited dual-color palette. On SGB, this is the default SGB color palettes.
+  - La première option, `COLOR` permet de choisir différentes palettes de couleurs pour le jeu. Ces palettes ne s'appliquent que si vous jouez sur un système prenant en charge la couleur, comme la GBC, la GBA, le Super Game Boy, etc. **Attention** : Sur Super Game Boy, après avoir modifié ce paramètre, vous devez sauvegarder et redémarrer le jeu pour appliquer le changement. Sur GBC et GBA, le changement est immédiat.
+    - `OG`: Palette de couleurs par défaut. Le jeu utilise les couleurs qu'il aurait normalement affichées sur le système utilisé. Sur GBC et GBA, il s'agit d'une palette bicolore limitée, définie directement dans le jeu. Sur Super Game Boy, ce sont les palettes de couleurs SGB par défaut.
     
     ![Blue Title GBC Default](/screenshots/og_title/blue_title_default_gbc_color.png?raw=true) ![Red Title GBC Default](/screenshots/og_title/red_title_default_gbc_color.png?raw=true) ![Green Title GBC Default](/screenshots/og_title/green_title_default_gbc_color.png?raw=true)
-    - `SGB1`: Force SGB color palettes. This is no different than the "OG" setting if playing on SGB. On GBC or GBA, this changes the game to use the same color palettes as on SGB, and enables full color mode. Attack animations will have color in this mode when on GBC or GBA, along with some other color enhancements.
+    - `SGB1`: Force l'utilisation des palettes de couleurs Super Game Boy. Sur Super Game Boy, cette option est identique à OG. Sur GBC et GBA, elle permet d'utiliser les mêmes palettes que sur Super Game Boy et active le mode couleurs complètes. Dans ce mode, les animations des attaques sont également colorées sur GBC et GBA, avec quelques autres améliorations visuelles.
   
     ![Blue Title SGB](/screenshots/og_title/blue_title_sgb_colors_on_gbc.png?raw=true) ![Red Title SGB](/screenshots/og_title/red_title_sgb_colors_on_gbc.png?raw=true) ![Green Title SGB](/screenshots/og_title/green_title_sgb_colors_on_gbc.png?raw=true)
     
     ![Attack Color Fire Blast SGB](/screenshots/attack_color_fire_blast.png?raw=true) ![Attack Color Ice Beam SGB](/screenshots/attack_color_ice_beam.png?raw=true) ![Attack Color Solar Beam SGB](/screenshots/attack_color_solarbeam.png?raw=true) ![Attack Color Surf SGB](/screenshots/attack_color_surf.png?raw=true)
-    - `SGB2`: Force alternate SGB color palettes. Access this option by pressing A on SGB1 in this options menu. This is the same as SGB1 with a couple minor differences in colors based on japanese pokemon green. A more greenish white color for all the palettes. Other minor color differences include: Pallet Town is purplish instead of light green. Pewter City, Lavender Town, Celadon City, Saffron City, and Indigo Plateau have slightly different main colors in comparison to SGB1. Other than these slight color differences it is the same as SGB1 in features. 
+    - `SGB2`: Force l'utilisation de variantes des palettes Super Game Boy. Pour accéder à cette option, appuyez sur A lorsque SGB1 est sélectionné dans ce menu.
+    Cette option fonctionne comme SGB1, mais avec quelques petites différences de couleurs inspirées de la version japonaise de Pokémon Vert. Le blanc tire davantage vers le vert dans toutes les palettes. Parmi les autres différences, Bourg Palette est violacée au lieu d'être vert clair. Argenta, Lavanville, Céladopole, Safrania et le Plateau Indigo présentent également de légères différences dans leurs couleurs principales par rapport à SGB1.
+    À part ces quelques différences de couleurs, les fonctionnalités sont identiques à celles de SGB1.
 
     ![Blue Title SGB2](/screenshots/og_title/blue_title_sgb2_colors_on_gbc.png?raw=true) ![Red Title SGB2](/screenshots/og_title/red_title_sgb2_colors_on_gbc.png?raw=true) ![Green Title SGB2](/screenshots/og_title/green_title_sgb2_colors_on_gbc.png?raw=true)
 
-    Pictured Below: Left = SGB1, Right = SGB2
+    Ci-dessous: Gauche = SGB1, Droite = SGB2
 
     ![sgb1 sgb2 comparison 1](/screenshots/sgb1_sgb2_comparison_pallet.png?raw=true) ![sgb1 sgb2 comparison 2](/screenshots/sgb1_sgb2_comparison_pewter.png?raw=true) ![sgb1 sgb2 comparison 3](/screenshots/sgb1_sgb2_comparison_lavender.png?raw=true) ![sgb1 sgb2 comparison 4](/screenshots/sgb1_sgb2_comparison_saffron.png?raw=true)  ![sgb1 sgb2 comparison 5](/screenshots/sgb1_sgb2_comparison_indigo.png?raw=true)
-    - `Y1 or Y2`: Force GBC color palettes. On Super Gameboy, it'll now have Pokemon Yellow's GBC more intense color palettes. Same with GBC and GBA. On GBC and GBA, enables full color mode. Attack animations will have color in this mode when on GBC or GBA, along with some other color enhancements. Y1 are the original palettes for pokemon yellow. Y2 are the same colors as Y1 with reduced intensity, to look like you are playing on an original GBC's screen when you are emulating the game.
+    - `J1 ou J2`: Force l'utilisation des palettes de couleurs GBC. Sur Super Game Boy, les palettes seront désormais celles de Pokémon Jaune sur GBC, avec leurs couleurs plus intenses. Il en va de même sur GBC et GBA. Sur ces deux dernières consoles, cette option active le mode couleurs complètes. Les animations des attaques sont également colorées dans ce mode, avec quelques autres améliorations visuelles.
+    J1 utilise les palettes originales de Pokémon Jaune. J2 utilise les mêmes couleurs que J1, mais avec une intensité réduite, afin de reproduire l'apparence de l'écran d'une véritable Game Boy Color lorsque vous jouez sur un émulateur.
     
     ![Blue Title GBC](/screenshots/og_title/blue_title_gbc_colors_on_gbc.png?raw=true) ![Red Title GBC](/screenshots/og_title/red_title_gbc_colors_on_gbc.png?raw=true) ![Green Title GBC](/screenshots/og_title/green_title_gbc_colors_on_gbc.png?raw=true)
 
     ![Blue Title GBC2](/screenshots/og_title/blue_title_y2_colors_on_gbc.png?raw=true) ![Red Title GBC2](/screenshots/og_title/red_title_y2_colors_on_gbc.png?raw=true) ![Green Title GBC2](/screenshots/og_title/green_title_y2_colors_on_gbc.png?raw=true)
-  - The second option, `ALT PKMN COLORS` will enable or disable pokemon from being able to have special color palettes (Default: OFF). When turned on, features related to alternate color pokemon are enabled. In certain regions, you will find differently colored pokemon, like blue nidorinos and purple nidorinas. Think of them as regional color variants. This is just an amusing feature to allow for additional enjoyment in finding unique pokemon by exploring different places.
+  - La deuxième option, `COLORIS PKMN ALT`, permet d'activer ou de désactiver les palettes de couleurs alternatives des Pokémon (désactivée par défaut).
+  Lorsqu'elle est activée, les fonctionnalités liées aux couleurs alternatives sont disponibles. Dans certaines zones, vous pourrez rencontrer des Pokémon aux couleurs différentes, comme des Nidorino bleus ou des Nidorina violettes. Considérez-les comme des variantes régionales de couleur.
+  Cette fonctionnalité est présente pour le plaisir, elle ajoute une raison supplémentaire d'explorer différents endroits à la recherche de Pokémon uniques.
 
 ![Alt Colors Off](/screenshots/alt_pokemon_colors_off.png?raw=true) ![Alt Colors On](/screenshots/alt_pokemon_colors_on.png?raw=true)
-  - The third option, `MUSIC` will enable or disable new music tracks in the game. (Default: OG) Set it to OG+ to play new music tracks when they are meant to be played. At the moment it controls only one or two minor tracks, such as Giovanni's Theme. (unused music from Pokemon Yellow's code) More music will likely be added in the future.
-  - The fourth option, `AUDIO PAN` will enable or disable stereo audio panning (Default: OFF). The game uses stereo audio by default, but every channel is played at equal volume throughout the right and left speaker, so it sounds like mono. With this turned on the game music sounds a bit more dynamic by panning certain channels to left or right. This was an option in Pokemon Yellow that was ported to this romhack.
-  - The fifth option, `BIKE SONG` will enable or disable the music that plays while on the bicycle (Default: ON). Since the bicycle music plays 100% of the time you are using the bicycle, it gets a bit old after a while. If turned off, the only time you'll hear the music is in Cycling Road. This way you can enjoy all the music in the game, not just the bicycle song.
-  - The sixth option, `GBC FADE` will enable or disable smoother fade animations on the GBC. (Default: OFF) Fade animations will be a lot smoother in framerate. Like when you enter a building or fly to another town. This feature only works on GBC.
+  - La troisième option, `MUSIQUE` permet d'activer ou de désactiver de nouveaux morceaux de musique (défaut: OG). Réglez-la sur OG+ pour entendre les nouveaux morceaux aux moments prévus. Pour l'instant, cette option ne concerne qu'un ou deux morceaux secondaires, notamment le thème de Giovanni, issu de musiques inutilisées dans le code de Pokémon Jaune. D'autres morceaux seront probablement ajoutés à l'avenir.
+  - La quatrième option, `PAN AUDIO` permet d'activer ou de désactiver la spatialisation stéréo du son (défaut : OFF). Le jeu utilise déjà un son stéréo, mais chaque canal est diffusé au même volume dans les haut-parleurs gauche et droit, ce qui donne une impression de son mono. Lorsque cette option est activée, la musique devient un peu plus dynamique grâce à la répartition de certains canaux entre la gauche et la droite.
+  Cette option existait dans Pokémon Jaune et a été intégrée à ce ROM hack.
+  - La cinquième option, `SON VELO` permet d'activer ou de désactiver la musique jouée à vélo (défaut : ON).
+  Comme cette musique est jouée pendant toute la durée des déplacements à vélo, elle peut devenir lassante à la longue. Si vous la désactivez, vous ne l'entendrez plus que sur la Piste Cyclable.
+  Vous pourrez ainsi profiter de toutes les musiques du jeu, et pas uniquement de celle du vélo.
+  - La sixième option, `FONDU GBC` permet d'activer ou de désactiver des transitions en fondu plus fluides sur GBC (défaut : OFF).
+  Les animations de fondu seront beaucoup plus fluides, notamment lorsque vous entrez dans un bâtiment ou que vous vous envolez vers une autre ville. Cette fonctionnalité ne fonctionne que sur GBC.
 
-
-
-The third page contains settings related to battles. 
+La troisième page contient des paramètres liés aux combats. 
 
 ![Options Third Page](/screenshots/options_page_3.png?raw=true)
 -
-  - The first four options, `GHST→PSY`, `ICE→FIRE`, `BUG→PSN`, `PSN→BUG` all control type matchups in the game. The option on the left for these is the original game's type matchup, and the right option is what it was changed to in Gen 2. These options allow you to fine-tune how you want type matchups to behave. The only non-original one is GHSTxPSY, which is set to make Ghost super effective against Psychic by default. In the original game Psychic was immune to Ghost, which the game even tells you isn't supposed to be the case in NPC dialogue.
-  - The fifth option, `EXP BAR` enables or disables an experience bar visual in battle. (Default: OFF) This feature allows easier tracking of experience while in battle.
+  - Les quatre premières options, `SPE→PSY`, `GLA→FEU`, `INS→PSN`, `PSN→INS` contrôlent les relations entre les types. Pour chacune d'elles, le réglage de gauche correspond à la table des types du jeu original, tandis que celui de droite correspond à la modification apportée dans la deuxième génération. Ces options vous permettent d'ajuster les relations entre les types selon vos préférences. La seule exception au comportement original concerne SPE→PSY, qui est réglée par défaut pour que le type Spectre soit très efficace contre le type Psy. Dans le jeu original, les Pokémon Psy étaient immunisés aux attaques Spectre, alors même que certains dialogues de PNJ indiquaient que cela ne devrait pas être le cas.
+  - La cinquième option, `BAR EXP` active ou désactive une barre d'expérience visuelle en combat (défaut : OFF). Cette fonctionnalité facilite le suivi de l'expérience gagnée en combat.
   
    ![Exp bar](screenshots/exp_bar.png?raw=true)
-  - The sixth option, `NPC EVs` enables or disables giving opponent trainer pokemon Stat EXP based on their pokemon's level. (Default: OFF) In the original game, they receive 0 stat EXP regardless of the level of their pokemon. This means if the player has a lot of stat EXP, they will totally outclass similar-level trainer pokemon. Turning this feature on will give trainer pokemon stat EXP scaled with their level to a reasonable degree. This makes the game a bit harder but can be fun for more experienced players.
-  - The seventh option `NPC PP` enables or disables tracking of PP for opponents. (Default: OFF) In the original game, opponents have infinite PP on their moves. Turning this on means they can run out of PP if they use some moves too many times. Makes the game a bit easier. But it might be good for later on in the game when recovery moves are more common.
+  - La sixième option, `PNJ EV` active ou de désactive l'attribution de Stat EXP. aux Pokémon des Dresseurs adverses, en fonction de leur niveau (défaut : OFF). Dans le jeu original, les Pokémon adverses ne recevaient aucun Stat Exp., quel que soit leur niveau. Ainsi, si vos Pokémon avaient accumulé beaucoup de Stat Exp., ils pouvaient largement surpasser les Pokémon de Dresseurs de niveau similaire.
+  Lorsque cette option est activée, les Pokémon des Dresseurs reçoivent une quantité raisonnable de Stat Exp. proportionnelle à leur niveau. Le jeu devient alors un peu plus difficile, mais cette option peut être intéressante pour les joueurs expérimentés.
+  - La septième option, `PNJ PP` active ou désactive le suivi des PP des Pokémon adverses (défaut : OFF). Dans le jeu original, les adversaires disposaient de PP illimités pour leurs attaques. Si cette option est activée, ils peuvent épuiser leurs PP en utilisant certaines attaques trop souvent.
+  Cela rend les combats un peu plus faciles, notamment vers la fin du jeu, lorsque les attaques de soin deviennent plus fréquentes.
 
-The fourth page contains Sprite-related options. 
+La quatrième page contient des options liées aux sprites.
  
 ![Options Fourth Page](/screenshots/options_page_4.png?raw=true)
-  - The first option, `BACK` changes the back sprites in the game. (Default: OG) There are two possible settings:
-    - OG: Use the original blocky back sprites. 
+  - The first option, `DOS` changes the back sprites in the game. (Default: OG) There are two possible settings:
+    - OG: Utilise les sprites de dos originaux pixelisés.
     
     ![Original back sprite venusaur](/gfx/pokemon/back/venusaurb.png?raw=true) ![Original back sprite blastoise](/gfx/pokemon/back/blastoiseb.png?raw=true) ![Original back sprite charizard](/gfx/pokemon/back/charizardb.png?raw=true)
-    - SW97: Use the spaceworld 1997 back sprites. (some have been touched up a bit) These are higher resolution while still matching the original game's style. Very nice!
+    - SW97: Utilise les sprites de dos Spaceworld 1997 (certains ont été légèrement retouchés). Leur résolution est supérieure tout en respectant le style graphique du jeu original. Très joli !
     
     ![Spaceworld back sprite venusaur](/gfx/pokemon/back_sw/venusaurb.png?raw=true) ![Spaceworld back sprite blastoise](/gfx/pokemon/back_sw/blastoiseb.png?raw=true) ![Spaceworld back sprite charizard](/gfx/pokemon/back_sw/charizardb.png?raw=true)
-  - The second option, `ICONS` changes the menu icons and overworld sprites in the game. (Default: OG) There are two possible settings:
-    - OG: Use the original icons in the overworld and on the pokemon menu.
-    - OG+: Use the original icons with some new ones. Some are based on beta sprites, some are completely newly designed sprites with the intention of being similar to the non-specific icon design of the original game, and ONE based on Gen 2's menu sprites (jellyfish sprite). This also will give unique sprites to Brock, Misty, Lt.Surge, Erika, Sabrina, and Blaine. They are all sprites that were designed from scratch to match the game's original trainer sprites, EXCEPT blaine's sprite, which is borrowed from Gen 2.
+  - La deuxième option, `ICONES` change les icônes des menus et les sprites de l'univers du jeu (défaut : OG). There are two possible settings:
+    - OG: Utilise les icônes originales dans le monde et dans le menu Pokémon.
+    - OG+: Utilise les icônes originales auxquelles s'ajoutent de nouvelles icônes. Certaines sont inspirées des sprites bêta, tandis que d'autres ont été entièrement créées pour rester fidèles au style des icônes originales, volontairement peu détaillées. Une icône est également inspirée des sprites de menu de la deuxième génération (sprite méduse). Cette option ajoute aussi des sprites uniques pour Pierre, Ondine, Major Bob, Erika, Morgane et Auguste. Tous ont été créés de zéro pour correspondre aux sprites de Dresseurs originaux du jeu, à l'exception de celui d'Auguste, repris de la deuxième génération.
 
  ![Menu Icons 1](/gfx/icons/menusprites1.png?raw=true) ![Menu Icons 2](/gfx/icons/menusprites2.png?raw=true)
     ![Brock](/gfx/sprites/brock.png?raw=true) ![Misty](/gfx/sprites/misty.png?raw=true) ![LtSurge](/gfx/sprites/lt_surge.png?raw=true) ![Erika](/gfx/sprites/erika.png?raw=true) ![Sabrina](/gfx/sprites/sabrina.png?raw=true) ![Blaine](/gfx/sprites/blaine.png?raw=true)
-  - If you press A on `EDIT` of the 3rd Option, it will open 5 new pages on another level. These 5 pages are for customizing the front sprites of the game. You can press A or SELECT to see which front sprite you chose for each option.
+  - Si vous appuyez sur A sur `MOD.` de la troisième option, cinq nouvelles pages s'ouvriront dans un sous-menu. Elles permettent de personnaliser les sprites de face des Pokémon.
+  Vous pouvez appuyer sur A ou SELECT pour afficher un aperçu du sprite de face choisi pour chaque option.
 
 ![Front Sprite Options 1](/screenshots/front_sprite_options1.png?raw=true)
 ![Front Sprite Options 2](/screenshots/front_sprite_options2.png?raw=true)
@@ -82,303 +92,309 @@ The fourth page contains Sprite-related options.
 ![Front Sprite Options 4](/screenshots/front_sprite_options4.png?raw=true)
 ![Front Sprite Options 4](/screenshots/front_sprite_options5.png?raw=true)
 
-  You can customize the below sprites:
+  Vous pouvez personnaliser les sprites suivants:
 
 ![front_sprite_options](/gfx/pokemon/gallery/front_sprite_options.png?raw=true)
 
-The fifth page contains some additional options.
+La cinquième page contient plusieurs options supplémentaires.
 
 ![Options Fifth Page](/screenshots/options_page_5.png?raw=true)
-- Turn on or off song pause/resume between battles. If you want the route or cave song to not restart after every wild battle you run from, you can turn this OFF and it will pause/resume the area music instead.
-- Turn on or off the learnset feature in the game. On by default. You can unlock learnsets for pokemon in various ways (discussed in the "New Features" section if this is turned on)
-- Turn on a new title screen created for PureRGB. By default, it displays the original game's title screen for the version you are playing.
+- Activer ou désactiver la pause/reprise de la musique entre les combats. Si vous ne voulez pas que la musique d'une route ou d'une grotte recommence depuis le début après chaque combat contre un Pokémon sauvage que vous fuyez, désactivez cette option. La musique de la zone sera alors mise en pause puis reprise.
+- Activer ou désactiver la fonctionnalité d'apprentissage des capacités. Elle est activée par défaut. Lorsque cette fonctionnalité est active, vous pouvez débloquer les listes de capacités des Pokémon de différentes manières, comme expliqué dans la section "Nouvelles fonctionnalités".
+- Activer le nouvel écran-titre créé pour PurRVB. Par défaut, le jeu affiche l'écran-titre original correspondant à la version à laquelle vous jouez.
   
 ![Pure Red Title](/screenshots/pure_red_title0.png?raw=true)![Pure Green Title](/screenshots/pure_green_title0.png?raw=true)![Pure Blue Title](/screenshots/pure_blue_title0.png?raw=true)
-- You can skip the intro when booting up the game and go straight to the title screen.
-- You can set battles to have less intense flashing animations.
-- You can switch between Imperial and Metric units used in pokedex info.
+- Vous pouvez passer l'introduction au démarrage du jeu pour accéder directement à l'écran-titre.
+- Vous pouvez réduire l'intensité des effets de clignotement pendant les combats.
+- Vous pouvez choisir entre les unités impériales et métriques utilisées dans les informations du Pokédex.
 
-## Quality of Life Enhancements
-- Stone evos and trade evos have full movesets
-- Trade evos evolve at level 37
-- The overworld runs at a smoother framerate.
-- TMs are all useful attacks
-- Level up movesets vastly improved for all pokemon
-- Bag size increased to 30 up from 20
-- PC item space increase to 60 up from 50
-- You can deposit items to your PC directly from the items menu by pressing START on the item you wish to deposit. Technology is amazing! Now items can be stored wirelessly!
+## Améliorations de confort de jeu
+- Les évolutions par pierre et par échange disposent d'un moveset complet.
+- Les Pokémon évoluant par échange évoluent au niveau 37.
+- Les déplacements dans le monde extérieur sont plus fluides.
+- Toutes les CT enseignent des attaques utiles.
+- Les capacités apprises en montant de niveau ont été largement améliorées pour tous les Pokémon.
+- La capacité du sac passe de 20 à 30 objets.
+- La capacité de stockage d'objets du PC passe de 50 à 60.
+- Depuis le menu des objets, vous pouvez déposer un objet directement dans le PC en appuyant sur START. La technologie est incroyable ! Le stockage sans fil est désormais possible !
 
 ![Deposit Item From Start Menu](/screenshots/deposit_item_from_menu.png?raw=true)
-- Open the start menu and scroll down to SAVE, then press SELECT, and you can change PC boxes whenever, wherever. Easy! You'll notice the Change Box menu has been revamped to include how many pokemon are in each box as well!
+- Ouvrez le menu START et défiler jusqu'à SAVE, puis appuyez sur SELECT pour changer de boîte PC à tout moment et n'importe où. Le menu de changement de boîte a également été amélioré pour inclure le nombre de Pokémon dans chaque boîte.
 
 ![Box change](/screenshots/change_box_from_start_menu.png?raw=true)
-- When viewing Bills PC, it'll always tell you how many pokemon are in the current box
-- The responsiveness of Bills PC and Player's PC was improved. It'll also kick you out of its menus less.
-- The game will tell you how many slots are left in your box after catching a pokemon, and when the box is full.
-- When scrolling over TMs/HMs in menus, a textbox will display the move they teach automatically! Hooray!
+- Lorsque vous consultez le PC de Léo, le nombre de Pokémon dans la boîte actuelle est toujours affiché.
+- Le PC de Léo et celui du joueur sont plus réactifs et leurs menus se ferment moins souvent intempestivement.
+- Après avoir capturé un Pokémon, le jeu indique le nombre de places restantes dans la boîte, ainsi que lorsque celle-ci est pleine.
+- Lorsque vous sélectionnez une CT ou une CS dans un menu, une fenêtre affiche automatiquement la capacité enseignée. Hourra !
 
 ![TM Text](/screenshots/tm_text_box_prompt.png?raw=true)
-- On any list that has scrolling (items menu, PC menus, elevator menus, etc.) you can skip to the bottom of the list from the top of the list and vice-versa by pressing LEFT on the D-PAD. Very convenient!
-- You can increase/decrease item buy/sell amounts by a factor of 10 by pressing left and right in the menu when choosing the amount.
-- Most menus will be better at remembering your place in the list when you do certain actions
-- After fishing, the game will remember you just used a fishing rod and will save your menu position to easily re-use it.
-- Itemfinder will turn you to face the direction of the item when one is nearby.
-- Low health alarm plays 3 times then stops instead of ringing incessantly in battles when you're at low health.
-- Save speed increased
-- TELEPORT is usable inside caves and buildings
-- An item that allows you to TELEPORT without the need for a pokemon with the move TELEPORT in your party is now in the game. You can obtain it within Pewter City.
-- Press SELECT in the overworld to use the bicycle if it's in your bag. After seeing "You got on your bicycle" and "You got off your bicycle" text once, getting on and off will be instant.
-- Run by holding the B button. Speed up the bicycle by holding the B button. Your animation speed increases to match your faster movement too.
-- The Bicycle is usable inside gates
-- Stop, then hold B+A at the same time. When you're holding both buttons, you can now turn around without moving in any direction. 
-- Fly is usable in places where you should be able to use it but weren't able to for some reason (Viridian forest, Safari Zone, Celadon Mart roof, Celadon Mansion roof)
-- The Name Rater will always be willing to rename pokemon, regardless of if you received them via trading. Is he going soft?
-- When selecting where to Fly to on the map, there is no longer needless forced delay between each selection.
-- The game now always reports the correct "Super Effective!" "Not Very Effective" etc. message when battling. No more tricks!
-- HMs are deletable. Deleting them in the wrong place shouldn't get you softlocked ever, code was introduced to avoid this.
-- When teaching a move via TM, there is less text to mash through.
-- When a pokemon tries to learn a new move, you can permanently skip the "X already has 4 moves, forget one to learn a new one?" question by selecting "HIDE" instead of "YES" or "NO".
-- When teaching a pokemon a move and selecting a move to forget, you must press START to select the move to forget instead of A. Now you won't accidentally select the wrong one disastrously!
-- When releasing a pokemon, you must press START to confirm releasing it. Helps avoid accidentally releasing pokemon.
-- Spin tiles in rocket hideout and viridian gym move you much faster
-- "Use another repel" menu implemented.
-- New info in the pokedex: The pokedex displays the typing of pokemon you have seen, and typing/base stats of pokemon you have caught
+- Dans toutes les listes défilantes (menu des objets, menus du PC, ascenseurs, etc.), appuyez sur GAUCHE de la croix directionnelle pour passer directement du début à la fin de la liste, et inversement. Très pratique !
+- Lors de l'achat ou de la vente d'objets, vous pouvez augmenter ou diminuer la quantité par paliers de 10 en appuyant sur GAUCHE ou DROITE.
+- La plupart des menus mémorisent mieux votre position dans les listes après certaines actions.
+- Après une partie de pêche, le jeu se souvient que vous venez d'utiliser une canne à pêche et conserve la position du menu pour faciliter sa réutilisation.
+- Le Cherch'Objet vous oriente vers l'objet lorsqu'il y en a un à proximité.
+- L'alarme de faible santé retentit trois fois, puis s'arrête au lieu de sonner sans interruption pendant les combats.
+- La vitesse de sauvegarde a été augmentée.
+- TÉLÉPORT est utilisable dans les grottes et les bâtiments.
+- Un objet permettant d'utiliser TÉLÉPORT sans avoir de Pokémon connaissant cette capacité dans son équipe a été ajouté. Vous pouvez l'obtenir à Argenta.
+- Appuyez sur SELECT dans le monde extérieur pour utiliser le vélo s'il se trouve dans votre sac. Après avoir vu une fois les messages "Vous enfourchez votre vélo" et "Vous descendez de votre vélo", monter et descendre du vélo devient instantané.
+- Maintenez B pour courir. Maintenez B à vélo pour accélérer. La vitesse de l'animation s'adapte également à votre déplacement.
+- Le vélo peut être utilisé à l'intérieur des postes de garde.
+- Arrêtez-vous, puis maintenez simultanément B et A. Vous pouvez alors changer de direction sans vous déplacer.
+- VOL est utilisable dans certains lieux où il aurait dû l'être, mais ne fonctionnait pas (Forêt de Jade, Parc Safari, toit du Centre Commercial de Céladopole et toit du Manoir de Céladopole).
+- Le Maître des Noms accepte désormais toujours de renommer vos Pokémon, même ceux obtenus par échange. Il s'attendrit ?
+- Lors du choix d'une destination avec VOL, les délais inutiles entre chaque sélection ont été supprimés.
+- Le jeu affiche désormais toujours le bon message ("C'est très efficace !", "Ce n'est pas très efficace...", etc.) pendant les combats. Fini les astuces !
+- Les CS peuvent être oubliées. Du code empêche tout blocage définitif si vous les oubliez au mauvais endroit.
+- Lorsqu'une capacité est enseignée avec une CT, il y a moins de texte à faire défiler.
+- Lorsqu'un Pokémon essaie d'apprendre une nouvelle capacité, vous pouvez ignorer définitivement la question "X connaît déjà 4 capacités. En oublier une pour en apprendre une nouvelle ?" en sélectionnant "CACHER" plutôt que "OUI" ou "NON".
+- Lorsque vous enseignez une capacité à un Pokémon et choisissez celle à oublier, vous devez appuyer sur START plutôt que sur A pour valider votre choix. Cela évite les erreurs catastrophiques !
+- Pour relâcher un Pokémon, vous devez appuyer sur START pour confirmer. Cela évite les relâchements accidentels.
+- Les cases tournantes du Repaire Rocket et de l'Arène de Jadielle vous déplacent beaucoup plus rapidement.
+- Le menu "Utiliser un autre Repousse ?" a été ajouté.
+- De nouvelles informations dans le Pokédex : le type des Pokémon aperçus est affiché, ainsi que le type et les statistiques de base des Pokémon capturés.
 
 ![Pokedex Base Stats](/screenshots/pokedex_base_stats_typing.png?raw=true)
-- You can press SELECT to view back sprites of pokemon you have caught in the pokedex when viewing their pokedex data.
-- When doing the Cinnabar Gym quiz, it won't keep explaining the quiz every time you start it up.
-- Coin Case doesn't take up space in your bag. Go to the game corner if you need to check how many coins you have.
-- Secret Key, Card Key, and Lift Key are consumed when you no-longer need them. Less item clutter.
-- The SS Anne Captain will make sure you don't need the SS Ticket anymore to get into the SS Anne area after you help him.
-- After saving Mr.Fuji, A Channeler on the 2nd floor of pokemon tower wants to borrow your SILPH SCOPE. They'll give it back when you ask. You can store it there so you don't need to take up space in your bag or PC.
-- Town Map does not take up space in your bag. To check it, go to your pokedex and press SELECT. (You still must obtain it in Pallet Town to use this feature.)
-- Fishing animation is a bit shorter in general
-- Fishing has a straight 75% rate of landing a pokemon
-- You can buy drinks in bulk from Celadon Diner after giving a drink to one of the Saffron guards.
-- 500 coins can be bought for 8000 pokedollars repeatedly at the game corner.
-- Slot machines won't cheat you out of lining up symbols based on RNG anymore.
-- Slot machine payout amounts increased.
-- Slot machine payout speed increased.
-- After using Surf, it will be remembered until the next map load. You can just walk onto water and start surfing without doing anything or even having to press A.
-- Strength can be used on boulders by pressing A on them while you have a pokemon with strength in your party.
-- Seafoam Islands and Victory Road will remember that you used Strength between going up and down floors so you don't have to re-enable it.
-- Seafoam Islands, Cerulean Cave, and the Safari Zone will remember you used Surf between going between map areas so you don't have to repeatedly use it.
-- Fuchsia City's layout has been modified very slightly to be less annoying to navigate.
-- The Daycare has a PC in it.
-- Route 23 has some grass just after the north exit of Victory Road to allow reaching those encounters more easily late game. The pokemon here will give full EXP unlike all other wild pokemon so it's a good place to train.
-- Elevators will tell you when you select the floor you're already on.
-- Some pokemon evolve at earlier levels
-- Many pokemon have better base stats. You can view base stats by checking the pokedex entry after catching the pokemon. Or, see the wiki for the full data.
-- Many pokemon have better learnsets than before. See the wiki for the data.
-- You can use the itemfinder in the GAME CORNER to detect hidden coins now.
-- A Save file updater was implemented, allowing you to transfer your save from the original game to work with PureRGB. Just open the original save file on PureRGB and the game will ask whether to update it.
-- Press SELECT while on the WITHDRAW option of the PC. You can view the pokemon in the box even if your party is full by doing this.
-- Press SELECT while viewing a pokemon's stats to see their stat EXP for each stat.
-- You can swap around pokemon in the party menu by pressing SELECT, like switching items or attacks.
-- When viewing your Item list or PC item list, it will show how full your bag is. 15/30, 20/60
-- MAX REPEL entirely disables wild pokemon encounters while it's active
-- Through optimization of text printing code, the speed and snappiness of navigating list menus has been increased.
-- Play Time tracking can now go above 255 hours, all the way up to 10000+ hours!
-- Reduced the weirdly long artificial delay when swapping items in the item menu
-- Improved the speed and responsiveness of the main menu (CONTINUE / NEW GAME / OPTIONS) menu
-- In Elevator menus, the current floor is now displayed.
-- You can rename PC boxes to 5 letter custom names.
-- By pressing select while your cursor is on the "ITEM" option in the start menu, you can automatically sort your bag items.
-- By pressing select while viewing "Player's PC", you can automatically sort your PC items.
-- Celadon Mart's directory now uses a menu, so it's less obtuse. The 1st floor clerk will also give you the same info with her own flair.
-- Re-talking to the pokemon center nurse will not re-trigger her dialog after you have already healed until you move off of the "Talk to her" position. Prevents triggering her dialog accidentally when you've already healed.
-- Added a "Currently selected pokemon" info box to the PC withdraw/deposit/release menus. Includes species name, party icon, and pokemon's types. Now you can nickname your pokemon without forgetting which pokemon it is.
-- Enhanced the speed of the tile loading function of the game so many views load 2x as fast as they did before. Like the start menu, talking to an NPC, opening the party menu, etc.
-- When using items on your party, the menu will stay open if you have more of that item you can still use. Like if you have many rare candies, you don't have to keep opening up the party menu to use them over and over.
-- Small prompts in the start menu/pc menu will indicate special select button actions you can do (change box from start menu, sort items from start menu, view PC box from pc menu, sort items from player's pc menu)
+- Appuyez sur SELECT dans le Pokédex pour afficher le sprite de dos des Pokémon capturés lorsque vous consultez leur fiche.
+- Lors du quiz de l'Arène de Cramois'Île, les explications ne sont plus répétées à chaque fois que vous le lancez.
+- La Boîte Jetons ne prend plus de place dans votre sac. Rendez-vous au Casino pour consulter votre nombre de jetons.
+- Les objets Clé Secrète, Carte Magnétique et Clé Ascenseur sont automatiquement consommés lorsqu'ils ne sont plus nécessaires. Moins d'encombrement !
+- Après que vous avez aidé le capitaine de l'Océane, celui-ci veille à ce que vous n'ayez plus besoin du Ticket Bateau pour accéder à la zone de l'Océane.
+- Après avoir sauvé M. Fuji, une Exorciste au deuxième étage de la Tour Pokémon vous propose de lui confier votre Scope Sylphe. Elle vous le rendra sur demande. Vous pouvez ainsi le laisser là pour libérer de la place dans votre sac ou votre PC.
+- La Carte ne prend plus de place dans votre sac. Pour la consulter, ouvrez le Pokédex et appuyez sur SELECT. (Vous devez tout de même l'obtenir à Bourg Palette pour débloquer cette fonctionnalité.)
+- L'animation de pêche est globalement un peu plus courte.
+- La pêche permet désormais d'obtenir un Pokémon avec un taux fixe de 75 %.
+- Vous pouvez acheter des boissons en quantité au Diner de Céladopole après en avoir donné une à l'un des gardes de Safrania.
+- Vous pouvez acheter 500 jetons pour 8 000 Pokédollars au Casino, autant de fois que vous le souhaitez.
+- Les machines à sous ne vous empêchent plus d'aligner des symboles en fonction du générateur aléatoire.
+- Les gains des machines à sous ont été augmentés.
+- Les gains des machines à sous sont distribués plus rapidement.
+- Après avoir utilisé SURF, le jeu mémorise la capacité jusqu'au prochain chargement de carte. Vous pouvez simplement marcher sur l'eau pour surfer, sans action supplémentaire ni même appuyer sur A.
+- Vous pouvez utiliser FORCE sur un rocher en appuyant sur A si un Pokémon connaissant cette capacité se trouve dans votre équipe.
+- Les Îles Écume et la Route Victoire mémorisent l'utilisation de FORCE lorsque vous changez d'étage. Vous n'avez donc pas besoin de réactiver la capacité.
+- Les Îles Écume, la Caverne Azurée et le Parc Safari mémorisent l'utilisation de SURF lorsque vous passez d'une zone à l'autre. Plus besoin de l'utiliser à répétition.
+- Le plan de Parmanie a été légèrement modifié pour rendre les déplacements moins pénibles.
+- La Pension dispose désormais d'un PC.
+- Un peu d'herbe a été ajoutée sur la Route 23, juste après la sortie nord de la Route Victoire, pour faciliter l'accès aux Pokémon sauvages en fin de jeu. Les Pokémon qui s'y trouvent donnent leur EXP complète, contrairement aux autres Pokémon sauvages : c'est donc un bon endroit pour s'entraîner.
+- Les ascenseurs indiquent désormais lorsque vous sélectionnez l'étage où vous vous trouvez déjà.
+- Certains Pokémon évoluent à des niveaux plus bas.
+- Les statistiques de base de nombreux Pokémon ont été améliorées. Vous pouvez les consulter dans leur fiche du Pokédex après les avoir capturés, ou retrouver toutes les données sur le wiki.
+- Les capacités apprises par de nombreux Pokémon ont été améliorées. Consultez le wiki pour les détails.
+- Vous pouvez désormais utiliser le Cherch'Objet au CASINO pour détecter les jetons cachés.
+- Un outil de mise à jour des sauvegardes a été ajouté. Il permet de transférer votre sauvegarde du jeu original pour l'utiliser avec PurRVB. Ouvrez simplement votre ancienne sauvegarde dans PurRVB : le jeu vous proposera de la mettre à jour.
+- Appuyez sur SELECT lorsque l'option RETIRER est sélectionnée dans le PC pour consulter les Pokémon de la boîte, même si votre équipe est complète.
+- Appuyez sur SELECT lorsque vous consultez les statistiques d'un Pokémon pour afficher ses points d'expérience statistiques pour chaque caractéristique.
+- Vous pouvez réorganiser les Pokémon de votre équipe dans le menu de l'équipe en appuyant sur SELECT, comme pour déplacer des objets ou des capacités.
+- Lorsque vous consultez votre sac ou les objets du PC, le nombre d'emplacements utilisés et disponibles est affiché : 15/30, 20/60.
+- MAXI REPousse empêche totalement les rencontres avec les Pokémon sauvages tant qu'il est actif.
+- L'optimisation du code d'affichage du texte accélère et fluidifie la navigation dans les menus à listes.
+- Le compteur de temps de jeu peut désormais dépasser 255 heures, jusqu'à plus de 10 000 heures !
+- Le délai artificiellement long lors de l'échange d'objets dans le menu du sac a été réduit.
+- Le menu principal (CONTINUER / NOUVELLE PARTIE / OPTIONS) est plus rapide et réactif.
+- Dans les menus des ascenseurs, l'étage actuel est désormais indiqué.
+- Vous pouvez donner des noms personnalisés de cinq lettres aux boîtes du PC.
+- Appuyez sur SELECT lorsque l'option "OBJET" est sélectionnée dans le menu START pour trier automatiquement les objets de votre sac.
+- Appuyez sur SELECT lorsque vous consultez le "PC du joueur" pour trier automatiquement les objets stockés dans le PC.
+- Le répertoire du Centre Commercial de Céladopole utilise désormais un menu, plus simple à parcourir. La vendeuse du rez-de-chaussée vous donnera également les mêmes informations à sa manière.
+- Si vous reparlez à l'infirmière du Centre Pokémon après avoir soigné votre équipe, son dialogue ne se déclenchera plus tant que vous n'aurez pas quitté sa position. Cela évite de relancer accidentellement son dialogue.
+- Une fenêtre d'information "Pokémon sélectionné" a été ajoutée aux menus RETIRER / DÉPOSER / RELÂCHER du PC. Elle affiche le nom de l'espèce, l'icône de l'équipe et les types du Pokémon. Vous pouvez ainsi lui donner un surnom sans oublier de quel Pokémon il s'agit.
+- La fonction de chargement des graphismes des décors a été optimisée : de nombreux écrans se chargent deux fois plus vite qu'avant, notamment le menu START, les dialogues avec les PNJ et le menu de l'équipe.
+- Lorsque vous utilisez des objets sur votre équipe, le menu reste ouvert tant qu'il vous reste des objets utilisables. Par exemple, si vous avez plusieurs Super Bonbons, inutile de rouvrir le menu de l'équipe à chaque utilisation.
+- De petits messages dans les menus START et PC indiquent les actions spéciales accessibles avec SELECT : changer de boîte depuis le menu START, trier les objets du sac, consulter le contenu d'une boîte depuis le menu PC et trier les objets du PC du joueur.
 
-## New Gameplay Features
-- Mew is under the truck!!! Use strength on it from the right side. If the SS Anne has left, it returns after obtaining the Soul Badge.
-- Missingno and the item duplication glitch are still accessible. Missingno can be caught and won't corrupt your game data in any way. It's very powerful, so be careful when trying to catch it! Missingno also randomly displays different sprites like its original "glitchy" sprite, the Ghost sprite or Fossil Kabutops/Aerodactyl each time its sprite is loaded.
+## Nouvelles fonctionnalités de jeu
+- Mew se trouve sous le camion !!! Utilisez FORCE sur lui depuis le côté droit. Si l'Océane est déjà partie, elle revient après l'obtention du Badge Âme.
+- MissingNo. et le glitch de duplication d'objets sont toujours accessibles. MissingNo. peut être capturé sans corrompre vos données de jeu. Il est très puissant, alors soyez prudent en essayant de le capturer ! MissingNo. affiche également aléatoirement différents sprites à chaque chargement : son sprite "glitché" d'origine, celui du Spectre ou le fossiles de Kabutops/Ptéra.
 
  ![Missingno](/screenshots/missingno.png?raw=true)
 
-- An entirely new pokedex mode has been added. It's called the MOVEDEX. This tracks every move you have seen the animation of in battle, and will list all their information and data in detail for you to see. Try to complete your MOVEDEX! The movedex is unlocked in a new basement classroom of the schoolhouse in Viridian City. You can switch the sorting mode of the movedex from ID to alphabetical with SELECT while viewing the movedex.
+- Un tout nouveau mode de Pokédex a été ajouté : le CAPADEX. Il répertorie toutes les capacités dont vous avez vu l'animation en combat et affiche leurs informations et caractéristiques détaillées. Essayez de compléter votre CAPADEX ! Il est accessible dans une nouvelle salle de classe au sous-sol de l'école de Jadielle. Vous pouvez passer du classement par ID au classement alphabétique avec SELECT lorsque vous consultez le CAPADEX.
 
 ![movedex](/screenshots/movedex.png?raw=true) ![movedex thunderbolt](/screenshots/movedex_thunderbolt.png?raw=true) ![movedex flamethrower](/screenshots/movedex_flamethrower.png?raw=true) ![movedex surf](/screenshots/movedex_surf.png?raw=true) ![movedex eq](/screenshots/movedex_earthquake.png?raw=true)
 
-- ANOTHER entirely new pokedex mode has been added. Learnset viewing! This will list level-up learnsets, TM learnsets, and evolutions for a pokemon! You can unlock pokemon learnsets if you have obtained the MOVEDEX, by talking to people who know about specific pokemon, by reading books in the game about specific pokemon, or just by levelling up your pokemon to a high enough level such that you're an expert on that pokemon yourself!
+- Un AUTRE tout nouveau mode de Pokédex a été ajouté : la consultation des capacités apprises ! Il affiche les capacités apprises par montée de niveau, celles apprises par CT et les évolutions d'un Pokémon. Vous pouvez débloquer ces informations après avoir obtenu le CAPADEX, en parlant à des personnes connaissant certains Pokémon, en lisant des livres à leur sujet ou simplement en entraînant suffisamment vos Pokémon pour devenir vous-même un expert.
 
 ![learnset 1](/screenshots/learnset_1.png?raw=true) ![learnset_2](/screenshots/learnset_2.png?raw=true) ![learnset_3](/screenshots/learnset_3.png?raw=true)
 
-- YET ANOTHER entirely new pokedex mode has been added. View wild pokemon distributions by selecting areas on the town map! You can even select specific floors in dungeons with multiple floors! Unlock this feature by catching 50 pokemon and talking to the AIDE in FUCHSIA city's meeting room building.
+- ENCORE un nouveau mode de Pokédex a été ajouté : consultez la répartition des Pokémon sauvages en sélectionnant des zones sur la Carte. Vous pouvez même choisir des étages précis dans les donjons à plusieurs niveaux ! Débloquez cette fonctionnalité en capturant 50 Pokémon, puis en parlant à l'ASSISTANT dans le bâtiment de réunion de PARMANIE.
 
 ![town map wild data](/screenshots/town_map_wild_data.png?raw=true)
  
-- Ghost Marowak can be caught, and if you have Alt Pkmn Palettes turned on, it has a special ghostly coloration. It wants revenge on Team Rocket! Mr Fuji will react differently to being saved if you caught it.
+- Ossatueur Spectre peut être capturé. Si l'option Palette Pkmn Alt est activée, il possède une coloration spectrale spéciale. Il veut se venger de la Team Rocket ! M. Fuji réagira différemment à son sauvetage si vous l'avez capturé.
 
-- The Safari Zone now has 3 different "Modes" of Safari Game. They are:
-  - `CLASSIC`: the original game's "Safari Game".  Use bait and rocks instead of your well-trained pokemon to try to catch wild pokemon with Safari Balls. The only change to this mode is that you have 700 steps instead of 500.
-  - `FREE ROAM`: Bring your pokemon into the Safari Zone and catch and battle pokemon like you would normally. Also, no limit on steps! On top of that, now there are trainers ready to battle all over the Safari Zone? This is great! The trainers will reset when you re-enter, allowing you to repeatedly battle them.
-  - `RANGER HUNT`: now we're talking. Find the 5 rangers and defeat them before you run out of steps! You get a special prize if you do! Bring in your pokemon just like FREE ROAM mode, but you only have 700 steps to find and beat all 5 rangers! All the trainers from Free Roam mode are present too. This is the ultimate Safari Zone challenge! The reward is a new type of Poke Ball, the HYPER BALL, which never fails to catch pokemon if they are <1/3 health. Even legendary pokemon! This challenge can be repeated.
+- Le Parc Safari propose désormais trois modes de jeu différents :
+  - `CLASSIQUE` : le mode Safari du jeu original. Utilisez des appâts et des pierres plutôt que vos Pokémon entraînés pour tenter de capturer des Pokémon sauvages avec des Safari Balls. Seule différence : vous disposez de 700 pas au lieu de 500.
+  - `CHASSE AU RANGER` : trouvez les 5 rangers et battez-les avant d'épuiser vos pas pour obtenir un prix spécial ! Comme en mode FREE ROAM, vous pouvez emmener vos Pokémon, mais vous ne disposez que de 700 pas pour trouver et vaincre les 5 rangers. Tous les dresseurs du mode FREE ROAM sont également présents. C'est le défi ultime du Parc Safari ! La récompense est une nouvelle Poké Ball : l'HYPER BALL, qui capture à coup sûr les Pokémon ayant moins d'un tiers de leurs PV. Même les Pokémon légendaires ! Ce défi peut être recommencé.
+  - `EXPLORATION LIBRE` : emmenez vos Pokémon dans le Parc Safari et capturez ou combattez des Pokémon comme à l'habitude. Il n'y a aucune limite de pas ! Des dresseurs sont également présents dans tout le parc. Ils réapparaissent lorsque vous entrez à nouveau, ce qui permet de les affronter plusieurs fois.
   
    ![Safari Zone Modes](/screenshots/safari_zone_modes.png?raw=true) ![Safari Zone Trainers](/screenshots/safari_zone_ranger_hunt.png?raw=true) 
 
-- New Items:
-  - `POCKET ABRA`: It's an Abra that fits in your bag. A pocket pokemon! Isn't that redundant?...It allows you to teleport whenever you want, even in buildings or caves, back to the last pokemon center. Keep it on hand at all times for maximum convenience. You can nickname it even!
-  - `BOOSTER CHIP`: Replaces `EXP.ALL` - Oak's aide on Route 15 will give you this if you catch at least 80 pokemon. When you install it to your pokeball belt, all your pokemon will gain boosted EXP as if they were traded pokemon! Great for training up pokemon when you're trying to catch them all.
-  - `APEX CHIP`: The Gym Guide's creation! It maximizes DVs (also known as IVs) when installed. The Gym Guide will give you 2 of them after you beat each gym leader. Inside a pokemon's pokeball, this chip will simulate their natural habitat, helping them be happy and achieve their maximum potential! It'll indicate if DVs are maxed out on the status screen too.
-  - `HYPER BALL`: As discussed above, a new type of Poke Ball that never fails to catch pokemon if they're below 1/3 health. For many non-legendary pokemon, it will never fail even at full health! You might want to save these for legendaries because they're a bit hard to come by.
- 
-- An entirely new area was added in Indigo Plateau. After becoming champ you can talk to the woman in the top left of the indigo plateau lobby to enter the Champ Arena. In the Champ Arena you can battle all the gym leaders and elite four in rematches. Also some fun animations and sequences while doing it. Opponents in the Champ Arena have perfect IVs...so make sure to use APEX CHIPs on all your team! They also have custom movesets for all their pokemon, and the highest level of AI, so be ready. You can choose from many different audio tracks to play while battling all these opponents. Initially you face the opponents in a set order. After defeating all of them you can choose who you battle. They will be even stronger the second time you fight them!
+- Nouveaux objets :
+  - `ABRA POCKET` : Un Abra qui tient dans votre sac. Un Pokémon de poche ! Un peu redondant, non ?... Il permet d'utiliser TELEPORT à tout moment, même dans les bâtiments et les grottes, pour retourner au dernier Centre Pokémon visité. Gardez-le toujours sur vous ! Vous pouvez même lui donner un surnom.
+  - `PUCE EXP` : Remplace `MULTI EXP`. L'assistant du Professeur Chen sur la Route 15 vous la donnera si vous avez capturé au moins 80 Pokémon. Une fois installée sur votre ceinture à Poké Balls, elle augmente l'EXP gagnée par tous vos Pokémon, comme s'ils avaient été obtenus par échange. Idéal pour entraîner votre équipe tout en complétant le Pokédex.
+  - `PUCE APEX` : Une invention du Guide des Arènes ! Une fois installée, elle maximise les DVs (aussi appelés IVs). Le Guide des Arènes vous en donnera deux après chaque victoire contre un Champion d'Arène. Installée dans la Poké Ball d'un Pokémon, cette puce simule son habitat naturel pour le rendre heureux et lui permettre d'atteindre son plein potentiel ! L'écran des statistiques indique également si ses DVs sont au maximum.
+  - `HYPER BALL` : Comme expliqué précédemment, une nouvelle Poké Ball qui capture à coup sûr les Pokémon ayant moins d'un tiers de leurs PV. Pour de nombreux Pokémon non légendaires, elle fonctionne même avec leurs PV au maximum ! Gardez-les de préférence pour les Pokémon légendaires : elles sont assez rares.
+
+- Une toute nouvelle zone a été ajoutée au Plateau Indigo. Après être devenu Maître, parlez à la femme en haut à gauche du hall du Plateau Indigo pour accéder à l'Arène des Champions. Vous pourrez y affronter à nouveau tous les Champions d'Arène et les membres du Conseil 4, avec quelques animations et séquences spéciales. Les adversaires ont des IV parfaits : pensez donc à équiper toute votre équipe de PUCE APEX ! Ils disposent également de sets de capacités personnalisés et du niveau d'IA le plus élevé. Préparez-vous ! Vous pouvez choisir parmi plusieurs pistes audio pour accompagner les combats. Au début, les adversaires sont affrontés dans un ordre prédéfini. Une fois tous vaincus, vous pourrez choisir qui affronter. Ils seront encore plus puissants lors de la deuxième confrontation !
 
    ![Champ Arena](/screenshots/champ_arena.png?raw=true)
 
-- The "TM Pirate" is a kid who appears in most PokeMarts who will sell you TMs! It's just a fun way of adding more purchasable TMs to the game.
+- Le "Pirate CT" est un GAMIN que l'on trouve dans la plupart des boutiques Pokémon. Il vous vend des CT ! Une façon amusante d'ajouter davantage de CT à acheter dans le jeu.
 
-- A new area based on pre-release "Moltres dungeon" data was added to the game on the sea route between Pallet Town and Cinnabar Island. Cinnabar Volcano! You can catch Moltres earlier in the game here. You can also turn this area off entirely if you don't want it by going to Your PC and turning it off in the WORLD OPTIONS menu. Explore a new volcano area with lots of new visuals. You can upgrade your MAGMAR here with the power of the volcano!
+- Une nouvelle zone inspirée des données préliminaires du "donjon de Sulfura" a été ajoutée sur la route maritime entre Bourg Palette et la Cramois'Île : le Volcan Cramois'Île ! Vous pouvez y capturer Sulfura plus tôt dans le jeu. Vous pouvez aussi désactiver entièrement cette zone si vous ne souhaitez pas y accéder : rendez-vous sur votre PC et désactivez-la dans le menu OPTIONS MONDE. Explorez ce nouveau volcan et ses nombreux éléments visuels inédits. Vous pouvez également y améliorer votre MAGMAR grâce à la puissance du volcan !
 
 ![volcano](/screenshots/volcano.png?raw=true) ![world options](/screenshots/world_options.png?raw=true)
 
-- The Power Plant has been enhanced visually with a beta tileset from Spaceworld 1997. Now it also has a bit more of a puzzle. You must press a bunch of buttons to unlock electrical gates, which allow you to reach the end of the area. It also has a roof area, and a secret area where your MAGNETON can be powered up!
+- La Centrale a été améliorée visuellement avec les graphismes bêta de Spaceworld 1997. Elle propose désormais un petit puzzle supplémentaire : vous devez actionner plusieurs interrupteurs pour déverrouiller des barrières électriques et atteindre la fin de la zone. Elle comprend également un toit et une zone secrète où votre MAGNETON peut être amélioré !
 
 ![power plant](/screenshots/power_plant.png?raw=true) ![power plant2](/screenshots/power_plant2.png?raw=true)
 
-- In CERULEAN CITY you can find the POKE BALL DESIGNER! This woman designs the look of all poke balls for SILPH CO! Become her assistant and take some pictures of cool things with her borrowed CAMERA to inspire her to create new POKE BALLs with special audiovisual effects! Switch your pokemon's poke balls! CUSTOMIZE 16 OF YOUR OWN POKE BALLS WITH CUSTOM NAMES, 16 CUSTOMIZABLE POOF ANIMATIONS, 16 CUSTOMIZABLE THROW ANIMATIONS, 16 CUSTOMIZABLE COLOR PALETTES, 16 CUSTOMIZABLE SOUND EFFECT OPTIONS, 16 CUSTOMIZABLE ANIMATION PARTICLES!! Poke Balls have never been this customizable! BECOME A POKE BALL DESIGNER!
+- À AZURIA, vous trouverez la DESIGNER DE POKÉ BALLS ! Cette femme crée l'apparence de toutes les Poké Balls pour la SYLPHE SARL. Devenez son assistant et prenez des photos de choses intéressantes avec son APP. PHOTO, afin de lui inspirer de nouvelles Poké Balls aux effets audiovisuels spéciaux !
+Changez les Poké Balls de vos Pokémon ! PERSONNALISEZ 16 DE VOS PROPRES POKÉ BALLS AVEC DES NOMS PERSONNALISÉS, 16 ANIMATIONS D'APPARITION PERSONNALISABLES, 16 ANIMATIONS DE LANCER PERSONNALISABLES, 16 PALETTES DE COULEURS PERSONNALISABLES, 16 EFFETS SONORES PERSONNALISABLES ET 16 TYPES DE MOTIF D'ANIMATION PERSONNALISABLES !!
+Les Poké Balls n'ont jamais été aussi personnalisables ! DEVENEZ DESIGNER DE POKÉ BALLS !
 
 ![ball designer 1](/screenshots/ball_designer1.png?raw=true) ![ball designer 2](/screenshots/ball_designer2.png?raw=true)![ball designer 3](/screenshots/ball_designer3.png?raw=true) ![ball designer 4](/screenshots/ball_designer4.png?raw=true)
 
-- The urban legend - Bills Garden - was added into the game! It only is accessible once you become champ. You'll find some amusing stuff there. Visit it a couple of times! What you find might change! If you have alt palettes turned on in the options...is that a blue pikachu??
+- La légende urbaine — le jardin de Bill — a été ajoutée au jeu ! Il n'est accessible qu'une fois devenu Maître. Vous y trouverez des choses amusantes. Allez-y plusieurs fois ! Ce que vous y trouverez peut changer ! Si les palettes alternatives sont activées dans les options... est-ce un Pikachu bleu ??
 
 ![bills garden](/screenshots/bills_garden.png?raw=true)
 
-- The Mt Moon fossil Super Nerd will offer to take your fossil to Cinnabar Lab right away! You have to meet up with him at his house in SAFFRON CITY to get your fossil pokemon if you give it to him. Then you can give him OLD AMBER too. This allows you to receive fossil pokemon early.
+- L'INTELLO des fossiles du Mont Sélénite vous proposera d'apporter immédiatement votre fossile au laboratoire de la Cramois'Île ! Si vous lui confiez votre fossile, vous devrez le retrouver chez lui à SAFRANIA pour récupérer votre Pokémon fossile. Vous pourrez ensuite lui confier aussi le VIEIL AMBRE. Cela permet d'obtenir des Pokémon fossiles plus tôt dans l'aventure.
 
 ![Super Nerd House in Saffron](/screenshots/super_nerd_in_saffron_city.png?raw=true)
-- You can obtain the fossil that you didn't choose in Mt.Moon hidden inside Seafoam Islands.
+- Vous pouvez trouver le fossile que vous n'avez pas choisi au Mont Sélénite, caché dans les Îles Écume.
 
-- Erik and Sara are characters in the original game who were looking for each other in Fuchsia City. Help them find each other to find out all about them, and visit their house on the sea route south of Fuchsia (Route 19) after! Upgrade your DRAGONAIR by following their scuba diving adventure. This house on route 19 was based on beta content showing a house on an island on route 21.
+- NICO et JULIA sont des personnages du jeu original qui se cherchaient à Parmanie. Aidez-les à se retrouver pour découvrir leur histoire, puis rendez visite à leur maison sur la route maritime au sud de Parmanie (Route 19) ! Améliorez votre DRACO en suivant leur aventure de plongée sous-marine. Cette maison sur la Route 19 s'inspire d'un contenu bêta montrant une maison sur une île de la Route 21.
 
 ![erik and sara](/screenshots/erik_and_sara.png?raw=true)
 
-- In Celadon City there is an NPC in the Hotel who will give you LAPRAS early after clearing Rocket Hideout. It's the same guy who gives you it in Silph Co on a business trip. He ends up stuck in Silph Co later on as expected! If you don't get LAPRAS early you can still get it the original way.
+- À Céladopole, un PNJ de l'hôtel vous donnera un LOKHLASS avant l'heure après avoir terminé le Repaire Rocket. C'est le même homme qui vous le donne à la Sylphe SARL lors d'un voyage d'affaires. Comme prévu, il se retrouvera ensuite coincé à la Sylphe SARL ! Si vous ne récupérez pas LOKHLASS à l'avance, vous pourrez toujours l'obtenir de la manière originale.
 
-- In Fuchsia City there is an NPC who will permanently remove CUT trees for a fee. Remove all the trees in Fuchsia City, the one blocking Route 9, and more!
+- À Parmanie, un PNJ peut supprimer définitivement les arbres COUPE contre rémunération. Faites retirer tous les arbres de Parmanie, celui qui bloque la Route 9, et bien d'autres !
 
 ![Tree Deleter](/screenshots/tree_deleter.png?raw=true)
-- If you have Alt Palette Pkmn option turned on, at the Cinnabar Lab there is an NPC who will allow you to swap the color palette of your pokemon for its alternate palette. You have a limited number of color change usages!
+- Si l'option Palette Pkmn Alt est activée, un PNJ du laboratoire de Cramois'Île vous permettra d'échanger la palette de couleurs de vos Pokémon contre leur palette alternative. Le nombre de changements de couleur est limité !
 
  ![Lab color changer NPC](/screenshots/color_changer_npc.png?raw=true)
 
-- Past the first guard in indigo plateau you can find a door to a guy's house who lives on Route 23. He can change Pokemon typings back to their original ones if you want. You can choose exactly which pokemon use their new typings or original typings.
+- Après le premier garde du Plateau Indigo, vous trouverez une porte menant à la maison d'un homme qui habite sur la Route 23. Il peut rétablir les types d'origine des Pokémon si vous le souhaitez. Vous pouvez choisir précisément quels Pokémon conservent leurs nouveaux types ou retrouvent leurs types d'origine.
 
  ![Type Guys House](/screenshots/type_guys_house.png?raw=true)
  
-- A new area was added in the basement of the Viridian Schoolhouse. Acts as a sort of help area in the early game, with more info about basic stuff in the game like stats, type matchups, STAB, etc. It's also where you unlock the MOVEDEX feature.
+- Une nouvelle zone a été ajoutée au sous-sol de l'école de Jadielle. Elle sert de zone d'aide en début de jeu, avec davantage d'informations sur les bases du jeu : statistiques, efficacité des types, STAB, etc. C'est également là que vous débloquerez le CAPADEX.
 
 ![schoolhouse basement](/screenshots/new_school_basement.png?raw=true)
 
-- The FISHING GURU now lives in cerulean city and you can get the OLD ROD a bit earlier. Same with the GOOD ROD, which is now in the old FISHING GURU's house in vermilion city. As for the last two gurus on Route 12 and in Fuchsia city, whoever you meet first will give you a SUPER ROD. The other will be a bit distraught at the unexpected turn of events, and then give you a FISHING GUIDE. This unlocks the ability to see fishing locations for pokemon in the pokedex.
+- Le MAITRE PECHEUR habite désormais à Azuria, ce qui permet d'obtenir la CANNE un peu plus tôt. Même chose pour la SUPER CANNE, désormais disponible dans la maison de l'ancien MAITRE PECHEUR à Carmin sur Mer. Quant aux deux derniers maîtres, sur la Route 12 et à Parmanie, le premier que vous rencontrerez vous donnera une MEGA CANNE. L'autre sera un peu décontenancé par ce retournement de situation, puis vous donnera un GUIDE DE PECHE. Celui-ci débloque l'affichage des lieux de pêche des Pokémon dans le Pokédex.
 
 ![Fishing locations good rod](/screenshots/areas_good_rod.png?raw=true) ![Fishing Locations old rod](/screenshots/areas_old_rod.png?raw=true) ![Fishing locations super rod](/screenshots/areas_super_rod.png?raw=true)
 
-- You can phone home, professor oak, even your rival from the telephones in Celadon City's Department Store. You can choose how the conversations play out, and they even can have some subsequent small events based on what you choose when you go back to PALLET TOWN!
+- Vous pouvez téléphoner chez vous, au Professeur Chen, et même à votre rival depuis les téléphones du Centre Commercial de Céladopole. Vous pouvez choisir le déroulement des conversations, et certains de vos choix pourront même déclencher de petits événements par la suite, lorsque vous retournerez à BOURG PALETTE !
 
 ![phone tree 1](/screenshots/phone1.png?raw=true)
 ![phone tree 2](/screenshots/phone2.png?raw=true)
 
-- After saving Mr.Fuji in the Pokemon Tower, you can get into the basement of the Tower. You'll find a Channeler clothed in black who just loves curses, hexes, and all that dark stuff. If you show them a GENGAR, they'll curse it to look like a HAUNTER again. Its stats won't be affected though. It'll still have GENGAR's stats. Such a powerful curse!
+- Après avoir sauvé M. Fuji dans la Tour Pokémon, vous pourrez accéder au sous-sol de la tour. Vous y trouverez une exorciste vêtue de noir qui adore les malédictions, les sortilèges et tout ce qui touche aux arts obscurs. Si vous lui montrez un ECTOPLASMA, elle lui lancera une malédiction pour lui redonner l'apparence d'un SPECTRUM. Ses statistiques ne seront toutefois pas affectées, il conservera celles d'ECTOPLASMA. Quelle malédiction puissante !
 
 ![dark channeler](/screenshots/dark_channeler.png?raw=true)
 
-- After beating GIOVANNI in VIRIDIAN GYM, if you caught GHOST MAROWAK, you can lay it to rest in the basement of Pokemon Tower! A touching reunion with CUBONE and some spooky pokemon spirits to fight on the way.
+- Après avoir vaincu GIOVANNI à l'ARÈNE DE JADIELLE, si vous avez capturé le fantôme d'OSSATUEUR, vous pourrez lui permettre de reposer en paix dans le sous-sol de la Tour Pokémon ! Une touchante réunion avec un OSSELAIT, et quelques esprits Pokémon effrayants à combattre en chemin.
 
 ![ghost marowak area](/screenshots/ghost_marowak_area.png?raw=true)
 
-- On Route 8 you can find a new small cave housing a prospector digging for diamonds. If you help him, he will enhance your ONIX to be stronger. Its base stats will be boosted and it will take less damage from WATER, ICE, and GRASS type moves.
+- Sur la Route 8, vous trouverez une nouvelle petite grotte où un prospecteur creuse pour trouver des diamants. Aidez-le et il renforcera votre ONIX. Ses statistiques de base seront augmentées et il subira moins de dégâts des capacités de type EAU, GLACE et PLANTE.
 
 ![diamond mine](/screenshots/diamond_mine.png?raw=true)
 
-- After helping the prospector, you can find him at his house in Celadon. If you talk to him there after obtaining HM02, he will teach you how to use DIG to go between towns similar to the way you do with FLY. (Unlike FLY, DIG cannot be used while surfing, or on a dock above water.)
+- Après avoir aidé le prospecteur, vous pourrez le retrouver chez lui à Céladopole. Parlez-lui après avoir obtenu la CS02 : il vous apprendra à utiliser TUNNEL pour vous déplacer entre les villes, comme avec VOL. Contrairement à VOL, TUNNEL ne peut pas être utilisé pendant que vous surfez ou sur un quai au-dessus de l'eau.
 
 ![prospectors house](/screenshots/prospector's_house.png?raw=true) 
 
-- A secret area in Saffron City can be found near SILPH CO. This is where TEAM ROCKET snuck into the city undetected! So that's how they got there...in this area you can upgrade your WEEZING!
+- Une zone secrète de Safrania se trouve près de la SYLPHE SARL. C'est par là que la TEAM ROCKET s'est infiltrée dans la ville sans se faire repérer ! Voilà donc comment ils sont arrivés là... Vous pourrez y améliorer votre SMOGOGO !
 
 ![saffron abandoned building](/screenshots/saffron_abandoned_building.png?raw=true)
 
-- There are now 3 places you can train up weak pokemon faster in Vermilion City, Celadon City, and Saffron City! VERMILION FITNESS CLUB, BACK ALLEY BATTLE CLUB, and the FIGHTING DOJO. Each has a level cap in which any pokemon past that level won't receive any experience. You gain triple experience when battling in these places! Good for training up new pokemon you catch if you want to change your team up! You can turn these new areas off if you like from the WORLD OPTIONS.
+- Il existe désormais 3 lieux où entraîner plus rapidement les Pokémon de faible niveau : à Carmin sur Mer, Céladopole et Safrania ! Le CLUB FITNESS DE CARMIN SUR MER, le CLUB DE COMBAT DE RUE et le DOJO KARATE. Chacun possède un niveau maximum : les Pokémon ayant dépassé ce niveau ne gagneront aucun point d'expérience. Les combats dans ces lieux rapportent trois fois plus d'expérience ! Idéal pour entraîner les nouveaux Pokémon que vous capturez si vous souhaitez changer votre équipe ! Vous pouvez désactiver ces nouvelles zones depuis les OPTIONS MONDE si vous le souhaitez.
 
 ![clubs 1](/screenshots/clubs1.png?raw=true)![clubs 2](/screenshots/clubs2.png?raw=true)![clubs 3](/screenshots/clubs3.png?raw=true)![clubs 4](/screenshots/clubs4.png?raw=true)
 
-- The MOVE MYSTIC in Saffron City can tell you all about new SIGNATURE MOVES that some pokemon have. They get bonus power or accuracy on specific moves.
+- Le MYSTIQUE DES CAPACITES, à Safrania, peut tout vous apprendre sur les nouvelles CAPACITES SIGNATURE de certains Pokémon. Elles leur permettent d'obtenir un bonus de puissance ou de précision sur certaines capacités.
 
 ![move mystic](/screenshots/move_mystic.png?raw=true)
 
-- You can now eat food on the SS Anne to heal your pokemon while on it.
+- Vous pouvez désormais manger à bord de l'Océane pour soigner vos Pokémon pendant la traversée.
 
-- A METRONOME move tutor was added on route 12. This GAMBLER embraces chaos!
+- Un donneur de capacités METRONOME a été ajouté sur la Route 12. Ce CROUPIER adore le chaos !
 
-- The Gramps who gave the SOFTBOILED TM in the original game will now tutor you various moves that used to be TMs.
+- Le vieil homme qui donnait la CT E-COQUE dans le jeu original vous apprendra désormais diverses capacités qui étaient autrefois des CT.
 
-- Two FIGHTING DOJO members can be found in a house in SAFFRON CITY. They want you to beat SABRINA as revenge for her beating the FIGHTING DOJO! If you do, one of them will tutor your pokemon with additional moves that used to be TMs in the original game, and the other will tutor your ALAKAZAM with an elemental punch of your choice...BUT ONLY ONCE!
+- Deux membres du DOJO KARATE se trouvent dans une maison à SAFRANIA. Ils veulent que vous battiez MORGANE pour venger leur défaite face à elle ! Si vous y parvenez, l'un d'eux apprendra à vos Pokémon des capacités supplémentaires qui étaient autrefois des CT dans le jeu original. L'autre apprendra à votre ALAKAZAM une attaque poing élémentaire de votre choix... MAIS UNE SEULE FOIS !
 
-- A secret stairway opens up in a building somewhere after you become champ. The last in-game trade and some interesting stuff to see is in there. 
+- Un escalier secret s'ouvre dans un bâtiment quelque part après être devenu Maître. Vous y trouverez le dernier échange de Pokémon du jeu ainsi que quelques découvertes intéressantes.
 
-- The above secret area will help you access an even more top secret area. This area involves MEWTWO. You may want to bring MEWTWO with you. Maybe even MEW too! What you may find will be interesting.
+- Cette zone secrète vous permettra d'accéder à une zone encore plus secrète. Elle concerne MEWTWO. Vous devriez peut-être l'emmener avec vous. MEW aussi, pourquoi pas ! Ce que vous y découvrirez pourrait vous intéresser.
 
-- A couple of items or TRAINER TIPS signs have been added to otherwise empty places in the overworld.
-- A couple of new hidden items were added to various areas in the game.
-- Multiple items can be picked up at once (example: you found 5 potions)
+- Quelques objets ou panneaux ASTUCE ont été ajoutés dans des endroits jusque-là vides du monde.
 
-- Donate some money to the rock tunnel pokemon center to hear the secret of the pokemon centers: holding B before talking to the nurse will give you very express service!
-- Someone will sell every single TM after becoming champ.
+- Plusieurs nouveaux objets cachés ont été ajoutés dans différentes zones du jeu.
 
-- Rare candies can be purchased after becoming champ, but you must do a bit of sleuthing to find out how.
-- The two extra viridian forest trainers from Yellow were added in to make it a bit less empty
+- Vous pouvez ramasser plusieurs objets à la fois (exemple : vous avez trouvé 5 POTIONS).
 
-## Restored Cut Content
+- Faites un don au Centre Pokémon de la GROTTE pour découvrir le secret des Centres Pokémon : maintenez B avant de parler à l'infirmière pour bénéficier d'un service ultra-rapide !
 
-- If you turn on OG+ Music mode, the cut content Giovanni theme will play when you encounter Giovanni, and hear an early version of the Route 2 music when doing an in-game trade.
-- There is unused text in the game for when you lose to your rival - these were re-implemented and now work as expected!
-- There was an unused trainer class for Prof Oak. It's been added back into the game. Find him in Cerulean Cave after beating the Elite Four. He can be battled repeatedly. Just leave the area and come back.
-- Some trainer classes based on Beta or unused sprites were reintroduced to the game: `ROOKIE`, `RANGER`, `FIREFIGHTER`, `COOL KID`, `SOLDIER`, `CHIEF`, `FIST FIGHTER`, `FITNESS PRO`, `SPRINTER`. You'll find them in previously empty places or routes!
+- Quelqu'un vendra toutes les CT après que vous serez devenu Maître.
+
+- Vous pourrez acheter des SUPER BONBONS après être devenu Maître, mais il vous faudra mener l'enquête pour découvrir comment.
+
+- Les deux dresseurs supplémentaires de la Forêt de Jade présents dans Pokémon Jaune ont été ajoutés pour rendre la zone un peu moins vide.
+
+## Contenu coupé restauré
+
+- Si vous activez le mode musical OG+, le thème coupé de Giovanni sera joué lors de votre rencontre avec lui. Vous entendrez également une ancienne version de la musique de la Route 2 lors d'un échange de Pokémon dans le jeu.
+- Le jeu contenait des textes inutilisés prévus pour vos défaites contre votre rival. Ils ont été réintégrés et fonctionnent désormais comme prévu !
+- Une classe de dresseur inutilisée pour le Professeur Chen existait. Elle a été réintégrée au jeu. Retrouvez-le dans la Grotte Azurée après avoir vaincu le Conseil 4. Vous pouvez l'affronter autant de fois que vous le souhaitez : quittez simplement la zone et revenez.
+- Plusieurs classes de dresseurs inspirées de sprites bêta ou inutilisés ont été réintroduites : RECRUE, RANGER, POMPIER, GAMIN COOL, SOLDAT, CHEF, BOXEUR, PRO FITNESS, SPRINTER. Vous les trouverez dans des lieux ou sur des routes auparavant vides !
 
 ![Rookie](/gfx/unused_prototype_sprites/rookie.png?raw=true) ![Ranger](/gfx/unused_prototype_sprites/ranger.png?raw=true) ![Firefighter](/gfx/unused_prototype_sprites/firefighter.png?raw=true) ![Cool Kid](/gfx/unused_prototype_sprites/cool_kid.png?raw=true) ![Soldier](/gfx/unused_prototype_sprites/soldier.png?raw=true) ![Chief](/gfx/unused_prototype_sprites/chief.png?raw=true) ![Fist Fighter](/gfx/unused_prototype_sprites/fist_fighter.png?raw=true) ![Chief](/gfx/unused_prototype_sprites/fitness_girl.png?raw=true) ![Chief](/gfx/unused_prototype_sprites/sprinter.png?raw=true)
 
-- There were unused icy-looking tiles in the Cave tileset that were meant to be used in seafoam island. Now they are used there!
+- Des graphismes à l'apparence glacée, inutilisés dans le jeu et prévus pour les Îles Écume, ont été ajoutés à l'ensemble de décors de la Grotte. Ils sont désormais utilisés sur place !
 ![seafoam cut tiles](/screenshots/seafoam_islands_cut_content_tiles.png?raw=true)
-- Some unused trainers from existing classes were added into the game in various originally empty places
-- The new tileset in the POWER PLANT is based on cut content from Spaceworld 97.
-- Erik and Sara's house on route 19 was inspired by a house showing on earlier builds of the game on route 21.
-- Cinnabar Volcano as an area was inspired by an unused map called MOLTRES in earlier builds of the game.
-- You can enable and disable a cut content "Rainbow Palette" for Celadon City by talking to the "Celadon City - City of Rainbow Dreams" sign.
-- Unused tiles for the FIGHTING DOJO have been used in the new training area if you have the CLUBS option turned on in the WORLD OPTIONS.
+- Certains dresseurs inutilisés appartenant à des classes existantes ont été ajoutés dans différents endroits auparavant vides.
+- Le nouvel ensemble de décors de la CENTRALE ÉLECTRIQUE s'inspire de contenu coupé de Spaceworld 97.
+- La maison de Nico et Julia sur la Route 19 s'inspire d'une maison visible dans les premières versions du jeu sur la Route 21.
+- Le Volcan de Cramois'Île, en tant que zone, s'inspire d'une carte inutilisée nommée MOLTRES dans les premières versions du jeu.
+- Vous pouvez activer ou désactiver la "Palette Arc-en-ciel", un contenu coupé de Céladopole, en parlant au panneau "Céladopole - La ville des rêves arc-en-ciel".
+- Des éléments de décor inutilisés du DOJO DE COMBAT ont été réutilisés dans la nouvelle zone d'entraînement si l'option CLUBS est activée dans les OPTIONS MONDE.
 
-## Visual changes
-- Burn status has a burn animation instead of reusing the poison animation.
-- Pokeballs have varying animations slightly based on the type you use. Master Ball is especially cool!
-- If playing on GBC/GBA and have selected `SGB1`, `SGB2` or `GBC` in the options menu for the `COLORS` option, move animations will have fitting colors (ember is red, surf is blue, etc.).
-- If playing on GBC/GBA and have selected `SGB1`, `SGB2` or `GBC` in the options menu for the `COLORS` option, each type of pokeball will have a different coloration.
+## Changements visuels
+- Le statut Brûlure possède désormais sa propre animation au lieu de réutiliser celle du poison.
+- Les Poké Balls ont des animations légèrement différentes selon le type utilisé. Celle de la Master Ball est particulièrement réussie !
+- Si vous jouez sur GBC/GBA et avez sélectionné SGB1, SGB2 ou GBC dans l'option COLOR du menu des options, les animations des capacités auront des couleurs adaptées (Flammèche sera rouge, Surf sera bleu, etc.).
+- Avec les mêmes réglages de couleur (SGB1, SGB2 ou GBC), chaque type de Poké Ball aura une coloration différente.
 
 ![Pokeball Color](/screenshots/great_ball_color.png?raw=true)
-- Many move animations were enhanced.
-- FLY's overworld animation has a higher framerate and looks a lot smoother.
-- A new animation was added for when you use DIG in the overworld.
-- The game supports smoother fading when doing fade animations if you turn on GBC FADE in the options. This option only works on GBC.
-- Using SGB1 colors, pewter's palette is slightly greyer than the original game.
-- Using any of SGB1, SGB2, or GBC colors, seafoam island is bluish purple instead of the same color as every other cave in the game.
-- Using any of SGB1, SGB2, or GBC colors, the Power Plant is a pale color instead of the same green + blue color as every grass route in the game.
-- Using SGB1 or SGB2 colors, lorelei's room is a similar color to seafoam islands (it was the same color as Pallet Town previously).
-- Using GBC color mode, the "Grey pokemon" palette was made less brown.
-- Spaceworld backsprites were tweaked to improve them a bit
-- A couple of front sprites were tweaked very slightly to improve their appearance
-- Some pokemon had their default color palette adjusted (example: Voltorb and Electrode are red instead of the original yellow. Don't ask me why they were yellow in the first place)
-- You can see "the side of the building" visually from Celadon Department Store roof and Celadon Mansion roof.
-- Elevators will shake for longer or shorter depending on how far away the floor you selected was.
-- A little animation plays when you push a boulder onto a switch in Victory Road.
-- A little animation plays when you use FLASH to light up Rock Tunnel.
-- The power plant uses a new tileset based on a beta tileset from Spaceworld 97 that was intended for the power plant.
-- When you engage static pokemon (Articuno/Moltres/Zapdos/Mewtwo/Snorlax) a special animation will play for each before battle starts.
-- If you turn on OG+ Icons mode, in diglett's cave you will see DIGLETTs popping up and down visually and hiding from you.
-- If you're playing on SGB or GBC, talking to the "Saffron City - City of Rainbow Dreams" sign will switch between a special Rainbow palette (unused code from the original game) and the original palette.
-- Using a poke doll in battle will have a little animation now.
-- In seafoam islands, you can see the water currents moving visually. When you are close to them, there are also proximity "fast water" sound effects!
+- De nombreuses animations de capacités ont été améliorées.
+- L'animation de VOL dans le monde extérieur a une fréquence d'images plus élevée et est beaucoup plus fluide.
+- Une nouvelle animation a été ajoutée lorsque vous utilisez TUNNEL dans le monde extérieur.
+- Le jeu prend désormais en charge des fondus plus fluides si vous activez FONDU GBC dans les options. Cette option fonctionne uniquement sur GBC.
+- Avec les couleurs SGB1, la palette d'Argenta est légèrement plus grise que dans le jeu original.
+- Avec les couleurs SGB1, SGB2 ou GBC, les Îles Écume ont une teinte bleu-violet au lieu d'avoir la même couleur que toutes les autres grottes du jeu.
+- Avec les couleurs SGB1, SGB2 ou GBC, la Centrale Électrique a une teinte pâle au lieu d'utiliser le même mélange de vert et de bleu que toutes les routes avec de l'herbe.
+- Avec les couleurs SGB1 ou SGB2, la salle d'Olga a une couleur proche de celle des Îles Écume (elle avait auparavant la même couleur que Bourg Palette).
+- En mode couleur GBC, la palette des "Pokémon gris" a été rendue moins marron.
+- Les sprites de dos de Spaceworld ont été retouchés pour les améliorer légèrement.
+- Quelques sprites de face ont été très légèrement retouchés pour améliorer leur apparence.
+- La palette de couleurs par défaut de certains Pokémon a été modifiée (par exemple, Voltorbe et Électrode sont rouges au lieu d'être jaunes comme dans le jeu original. Ne me demandez pas pourquoi ils étaient jaunes au départ).
+- Vous pouvez désormais voir visuellement "le côté du bâtiment" depuis le toit du Centre Commercial de Céladopole et celui du Manoir de Céladopole.
+- Les ascenseurs tremblent plus ou moins longtemps selon la distance jusqu'à l'étage sélectionné.
+- Une petite animation se joue lorsque vous poussez un rocher sur un interrupteur sur la Route Victoire.
+- Une petite animation se joue lorsque vous utilisez FLASH pour éclairer le Tunnel Rocheux.
+- La Centrale Électrique utilise un nouvel ensemble de décors inspiré d'un décor bêta de Spaceworld 97, initialement prévu pour cette zone.
+- Lorsque vous approchez d'un Pokémon immobile (ARTIKODIN/SULFURA/ELECTHOR/MEWTWO/RONFLEX), une animation spéciale se joue avant le début du combat.
+- Si vous activez le mode OG+ Icons, vous verrez des Taupiqueurs sortir du sol et y replonger dans la Grotte Taupiqueur pour se cacher de vous.
+- Si vous jouez sur SGB ou GBC, parler au panneau "Safrania - La ville des rêves arc-en-ciel" vous permettra de passer d'une palette Arc-en-ciel spéciale (code inutilisé du jeu original) à la palette d'origine.
+- Une petite animation se joue désormais lorsque vous utilisez une Poupée dans un combat.
+- Dans les Îles Écume, vous pouvez voir les courants marins se déplacer. Lorsque vous vous en approchez, des effets sonores de "courant rapide" se déclenchent également !
 
 ![Seafoam Currents](/screenshots/seafoam_currents.png?raw=true)
 
@@ -423,8 +439,8 @@ The fifth page contains some additional options.
 - Doing the same thing as the above on unidentified GHOSTS would reveal what pokemon they are. Now it doesn't.
 - After saving in rock tunnel, going title screen -> continue screen -> title screen -> continue screen will cause the continue screen to take on darker colors. Now it stays normal colors.
 - Draining moves now miss on substituted pokemon as originally intended in the code.
-- Using mimic after an opponent switched pokemon won't always copy the move to move slot 2 regardless of the player's choice.
-- Using mimic after an opponent switched pokemon won't mess up the battle HUD temporarily.
+- Using COPIE after an opponent switched pokemon won't always copy the move to move slot 2 regardless of the player's choice.
+- Using COPIE after an opponent switched pokemon won't mess up the battle HUD temporarily.
 
 ## Tweaks
 - Trainers in general have a bit less type-specific parties and more varied pokemon. 
@@ -461,141 +477,146 @@ The fifth page contains some additional options.
 - The SAFARI BALL was given a ball factor of 1, making it better at catching pokemon at full health.
 - When walking to leave, your rival in Silph Co will visibly "Warp away" when he hits the warp tile instead of just disappearing.
 
-## Move changes
-- Disable disables the previously selected move of the opponent. If they haven't selected a move yet, it chooses a random move. It has 85% accuracy. It lasts 2-7 turns.
-- Trapping moves only last 2 or 3 turns but deal a bit more damage to compensate. 2/3 chance of 2 turns, 1/3 chance of 3 turns.
-- 7 moves that people almost never use were renamed and changed to have much more useful effects (mostly based on unused prototype moves):
-  - CONSTRICT is now SIPHON SNAG - 75 base power, electric type, move that heals status effects on the user, or one pokemon in your party if the user doesn't have status, 100% accuracy (Inspired by the unused prototype moves `PARALYZING SCISSORS` and `ELEKITER`)
-  - TAKE DOWN is now HEAT RUSH - 75 base power, fire type, 30% chance of burn, 100% accuracy. If used by a FIRE type pokemon, also has a 40% chance of increasing SPECIAL stat by one stage. (Inspired by the unused prototype move `MEGA FIRE`)
-  - KINESIS is now FIREWALL - 20 base power, fire type, causes burn, 90% accuracy (Inspired by the unused prototype move `F WALL`). If used on a pokemon that is already burned, power increases to 40. If used again after that, power increases to a maximum of 80. If the user is at least level 50, the increases are instead to 80 and 140 power maximum.
-  - COUNTER is now DRAIN PUNCH - 75 base power, fighting type, drains HP, 100% accuracy
-  - RAZOR WIND is now ROOST - heals 1/2 max HP
-  - SLAM is now FILTHY SLAM - 80 base power, poison type, no additional effect, 100% accuracy. Power increases to 130 if the target is poisoned.  (Inspired by the unused prototype move `GASTRO ACID`)
-  - FURY SWIPES is now DUST CLAW - 40 base power, ground type, no additional effect, 100% accuracy (early-game ground type move) (Inspired by the numerous cut content physical moves)
-- Some moves that were fairly useless were made less useless
-  - WHIRLWIND - 110 base power, flying type, 30% chance of confusion, 85% accuracy
-  - WITHDRAW - heals around 1/3 max HP and raises DEFENSE. Doesn't do anything if you have full health.
-  - GROWTH - heals around 1/3 max HP and raises SPECIAL. Doesn't do anything if you have full health.
-  - DEFENSE CURL - makes all SUPER EFFECTIVE moves do normal damage to the user until the user switches out
-  - MEDITATE - raises all of attack, speed, and special by 1 stage
-  - SUBMISSION - 60 base power, fighting type, raises attack by 1 stage, 100% accuracy
-  - CUT - 70 base power, bug type, no additional effect, 100% accuracy
-  - FLASH - 60 base power, electric type, priority move, 10% chance of flinching, 100% accuracy
-  - CONVERSION - The user can convert between DEFENSE mode and ATTACK mode. DEFENSE mode halves all damage to the user. ATTACK mode will remove defense mode, but will use an attack that is guaranteed to be super effective against the opponent.
-  - COMET PUNCH - 60 base power, fighting type, priority move, 100% accuracy
-  - KARATE CHOP, MEGA PUNCH, MEGA KICK, STRENGTH, and DIZZY PUNCH are all Fighting type moves now
-  - VICEGRIP - 75 base power, bug type, 30% chance of paralysis, 100% accuracy
-  - WING ATTACK - 50 base power, flying type, priority move, 100% accuracy
-  - BIDE - Raises attack and defense both by 1 stage
-  - SELFDESTRUCT - 140 base power, fire type, deals heavy recoil, 100% accuracy. If you have less than 1/3 health left, it will be 250 power and half the opponent's defense, but also makes the user faint immediately.
-  - EXPLOSION - 140 base power, rock type, deals heavy recoil, 100% accuracy. If you have less than 1/3 health left, it will be 250 power and half the opponent's defense, but also makes the user faint immediately.
-  - SKULL BASH - 100 base power, rock type, if it misses it deals crash damage like jump kick/hi jump kick, 90% accuracy
-  - SPIKE CANNON - 42 base power, rock type, hits 2 or 3 times (50% chance of each outcome), 100% accuracy
-  - POISON GAS - 60 base power, poison type, high critical hit ratio, 10% chance of poison, 100% accuracy
-  - LEECH LIFE - 70 base power, bug type, drains HP, 100% accuracy
-  - ROCK SLIDE and ROCK THROW both have 100% accuracy
-  - MIRROR MOVE - is a priority move and always uses the previous attack the opponent used regardless of if the pokemon that used it fainted
-  - MIMIC - you can still choose the exact move to mimic, but now it will use that move the same turn you mimic it
-  - BONEMERANG - 60 base power, hits twice, 95 accuracy, 30% chance of lowering opponent's speed. It also can hit FLYING-type pokemon for neutral damage unlike other GROUND-type moves.
-  - SUPER FANG - now deals a set 2/3 the opponent's HP instead of 1/2. Useful for catching rare pokemon!
-  - TELEPORT - actually does something in trainer battles now! The user will switch out, and heal 25% health by doing so. Still works the same as it used to when wild pokemon use it.
-  - DOUBLESLAP - does double damage on sleeping pokemon! But also makes them wake up.
-  - SONICBOOM - Priority move, GHOST type, 50 power. If you use it on the first turn you can attack, it will always cause the opponent to flinch.
-  - ACID ARMOR - Does both LIGHT SCREEN and REFLECT in one move.
-  - ACID - Always lowers either the opponents ATTACK or DEFENSE by one stage.
-  - LEECH SEED - will do more damage per turn depending on the opponent's resistance to GRASS type. It will stay at 1/16th of their HP per turn if they resist GRASS type, 1/8th if GRASS is normally effective, and 3/16th if they are weak to GRASS type.
-  - SMOKESCREEN doesn't affect FIRE-type pokemon. (Allows some counter-play to these moves)
-  - SAND-ATTACK doesn't affect GROUND or FLYING-type pokemon. (Allows some counter-play to these moves)
-  - TOXIC - 100% accuracy when used by poison pokemon.
-  - SCREECH - Still lowers defense by 2 stages, but now never misses, and also causes an effect "Echoing screeches" which will wake up any sleeping pokemon, and prevent sleep moves from being used. Echoing screeches will last for the whole battle! The move is used automatically if a pokemon that has it in their move list is attempted to be put to sleep by the opponent. Say NO to sleep moves if you want!
-- Some pokemon get SIGNATURE MOVES! This means they do more damage or get better accuracy with specific moves. For example, if ARBOK uses ACID, its power will be 100 instead of 50. An NPC in Saffron City can tell you which pokemon get signature moves and what the bonuses are to those moves. You can disable signature moves by turning off the MOVEMYSTIC option in the WORLD OPTIONS.
-- There are many more tweaks to moves. Check your MOVEDEX in game to see what a move you just saw's effects were, or see the wiki for a link to the complete move list. Be sure to try almost every move and don't write them off. Except for splash. It still does nothing as usual.
+## Modifications des capacités
+- ENTRAVE empêche l'adversaire d'utiliser la capacité qu'il avait précédemment sélectionnée. S'il n'a pas encore choisi de capacité, une capacité aléatoire est sélectionnée à la place. Précision : 85 %. Dure de 2 à 7 tours.
+- Les capacités d'immobilisation ne durent plus que 2 ou 3 tours, mais infligent davantage de dégâts pour compenser. 2 chances sur 3 de durer 2 tours, et 1 chance sur 3 de durer 3 tours.
+- 7 capacités rarement utilisées ont été renommées et modifiées afin de leur attribuer des effets bien plus utiles (principalement inspirés de capacités prototypes inutilisées) :
+  - CONSTRICTION est désormais VAMPI-STATIK : puissance de base de 75, type Électrik, soigne les altérations de statut du lanceur ou d'un Pokémon de l'équipe si le lanceur n'en subit aucune. Précision : 100 %. (Inspirée des capacités prototypes inutilisées `PARALYZING SCISSORS` et `ELEKITER`.)
+  - BELIER est désormais COUP D'CHAUD : puissance de base de 75, type Feu, 30 % de chances de brûler l'adversaire, précision de 100 %. Si elle est utilisée par un Pokémon de type Feu, elle a également 40 % de chances d'augmenter sa statistique SPECIAL d'un niveau. (Inspirée de la capacité prototype inutilisée `MEGA FIRE`.)
+  - TELEKINESIE est désormais MUR DE FEU : puissance de base de 20, type Feu, brûle l'adversaire, précision de 90 %. (Inspirée de la capacité prototype inutilisée `F WALL`.) Si elle est utilisée sur un Pokémon déjà brûlé, sa puissance passe à 40. Si elle est utilisée à nouveau après cela, sa puissance augmente jusqu'à un maximum de 80. Si le lanceur est au moins au niveau 50, les puissances passent respectivement à 80 et 140.
+  - RIPOSTE est désormais VAMPI-POING : puissance de base de 75, type Combat, absorbe des PV, précision de 100 %.
+  - COUPE-VENT est désormais ATTERRISSAGE : restaure la moitié des PV max.
+  - SOUPLESSE est désormais FRAP'TOXIK : puissance de base de 80, type Poison, aucun effet supplémentaire, précision de 100 %. Sa puissance passe à 130 si la cible est empoisonnée. (Inspirée de la capacité prototype inutilisée `GASTRO ACID`.)
+  - COMBO-GRIFFE est désormais GRIFFE-SABLE : puissance de base de 40, type Sol, aucun effet supplémentaire, précision de 100 %. (Une capacité de type Sol disponible dès le début du jeu.) (Inspirée des nombreuses capacités physiques supprimées du jeu.)
+- Certaines capacités relativement inutiles ont été rendues un peu moins inutiles :
+  - CYCLONE : puissance de base de 110, type Vol, 30 % de chances de rendre confus, précision de 85 %.
+  - REPLI : restaure environ un tiers des PV max et augmente la DÉFENSE. N'a aucun effet si les PV sont au maximum.
+  - CROISSANCE : restaure environ un tiers des PV max et augmente le SPÉCIAL. N'a aucun effet si les PV sont au maximum.
+  - BOUL'ARMURE : fait en sorte que toutes les capacités SUPER EFFICACES infligent des dégâts normaux au lanceur jusqu'à ce qu'il soit remplacé.
+  - YOGA : augmente l'ATTAQUE, la VITESSE et le SPÉCIAL d'un niveau.
+  - SACRIFICE : puissance de base de 60, type Combat, augmente l'ATTAQUE d'un niveau, précision de 100 %.
+  - COUPE : puissance de base de 70, type Insecte, aucun effet supplémentaire, précision de 100 %.
+  - FLASH : puissance de base de 60, type Électrik, capacité prioritaire, 10 % de chances d'apeurer l'adversaire, précision de 100 %.
+  - ADAPTATION : permet au lanceur d'alterner entre le mode DÉFENSE et le mode ATTAQUE. En mode DÉFENSE, tous les dégâts subis sont divisés par deux. Le mode ATTAQUE annule le mode DÉFENSE et déclenche une attaque garantie SUPER EFFICACE contre l'adversaire.
+  - POING COMETE : puissance de base de 60, type Combat, capacité prioritaire, précision de 100 %.
+  - POING-KARATE, POING COMETE, ULTIMAPOING, FORCE et ULTIMAWASHI sont désormais toutes des capacités de type Combat.
+  - FORCE POIGNE : puissance de base de 75, type Insecte, 30 % de chances de paralyser l'adversaire, précision de 100 %.
+  - CRU-AILE : puissance de base de 50, type Vol, capacité prioritaire, précision de 100 %.
+  - PATIENCE : augmente l'ATTAQUE et la DÉFENSE d'un niveau.
+  - EXPLOSION : puissance de base de 140, type Feu, inflige de lourds dégâts de recul, précision de 100 %. Si le lanceur possède moins d'un tiers de ses PV, sa puissance passe à 250 et la DÉFENSE de l'adversaire est divisée par deux, mais le lanceur tombe immédiatement K.O.
+  - DESTRUCTION : puissance de base de 140, type Roche, inflige de lourds dégâts de recul, précision de 100 %. Si le lanceur possède moins d'un tiers de ses PV, sa puissance passe à 250 et la DÉFENSE de l'adversaire est divisée par deux, mais le lanceur tombe immédiatement K.O.
+  - COUP D'BOULE : puissance de base de 100, type Roche. Si elle échoue, le lanceur subit des dégâts de chute, comme avec PIED SAUTÉ et DOUBLE PIED. Précision : 90 %.
+  - PICPIC : puissance de base de 42, type Roche, touche 2 ou 3 fois (50 % de chances pour chaque résultat), précision de 100 %.
+  - GAZ TOXIK : puissance de base de 60, type Poison, taux de coups critiques élevé, 10 % de chances d'empoisonner l'adversaire, précision de 100 %.
+  - VOL-VIE : puissance de base de 70, type Insecte, absorbe des PV, précision de 100 %.
+  - EBOULEMENT et JET-PIERRES ont désormais une précision de 100 %.
+  - MIMIQUE : devient une capacité prioritaire et reproduit toujours la dernière attaque utilisée par l'adversaire, même si le Pokémon qui l'a lancée est tombé K.O. entre-temps.
+  - COPIE : tu peux toujours choisir précisément la capacité à imiter, mais elle est désormais utilisée dès le tour où tu la copies.
+  - OSMERANG : puissance de base de 60, touche deux fois, précision de 95 %, 30 % de chances de réduire la VITESSE de l'adversaire. Peut également toucher les Pokémon de type Vol avec des dégâts neutres, contrairement aux autres capacités de type Sol.
+  - CROC FATAL : inflige désormais des dégâts équivalents aux deux tiers des PV de l'adversaire au lieu de la moitié. Très pratique pour capturer des Pokémon rares !
+  - TELEPORT : devient enfin utile lors des combats contre des Dresseurs ! Le lanceur est remplacé et récupère 25 % de ses PV au passage. Fonctionne toujours comme auparavant lorsqu'elle est utilisée par un Pokémon sauvage.
+  - TORGNOLES : inflige deux fois plus de dégâts aux Pokémon endormis ! Mais les réveille également.
+  - SONICBOOM : capacité prioritaire, type Spectre, puissance de 50. Si elle est utilisée dès le premier tour où le lanceur peut attaquer, elle apeure systématiquement l'adversaire.
+  - ACIDARMURE : combine les effets de MUR LUMIÈRE et de REFLET en une seule capacité.
+  - ACIDE : réduit toujours l'ATTAQUE ou la DÉFENSE de l'adversaire d'un niveau.
+  - VAMPIGRAINE : inflige davantage de dégâts à chaque tour selon la résistance de l'adversaire au type Plante. Les dégâts restent fixés à 1/16 de ses PV par tour s'il résiste au type Plante, passent à 1/8 si le type Plante lui inflige des dégâts normaux, et à 3/16 s'il y est faible.
+  - LILLIPUT n'affecte pas les Pokémon de type Feu. (Permet de mieux contrer cette capacité.)
+  - JET DE SABLE n'affecte pas les Pokémon de type Sol ou Vol. (Permet de mieux contrer cette capacité.)
+  - TOXIK : précision de 100 % lorsqu'elle est utilisée par un Pokémon de type Poison.
+  - GRINCEMENT : réduit toujours la DÉFENSE de deux niveaux, mais ne rate désormais jamais sa cible. Provoque également un effet appelé "Cris résonnants" qui réveille tous les Pokémon endormis et empêche l'utilisation de capacités provoquant le sommeil. Cet effet dure pendant tout le combat ! La capacité est automatiquement utilisée lorsqu'un Pokémon qui la connaît est visé par une capacité censée l'endormir. Dites NON aux capacités de sommeil si vous le souhaitez !
+- Certains Pokémon disposent désormais de CAPACITÉS SIGNATURE ! Cela signifie qu'ils infligent davantage de dégâts ou bénéficient d'une meilleure précision avec certaines capacités spécifiques. Par exemple, si ABO utilise ACIDE, sa puissance sera de 100 au lieu de 50. Un PNJ à Safrania peut vous indiquer quels Pokémon possèdent des capacités signature et quels bonus elles procurent. Vous pouvez désactiver cette fonctionnalité en désactivant l'option MYSTIQUE DES CAPACITÉS dans les OPTIONS MONDE.
+- De nombreuses autres modifications ont été apportées aux capacités. Consultez votre CAPADEX en jeu pour découvrir les effets d'une capacité que vous venez de rencontrer, ou consultez le wiki pour accéder à la liste complète des capacités. N'hésitez pas à essayer presque toutes les capacités au lieu de les écarter d'emblée. À l'exception de TREMPETTE, qui ne sert toujours à rien, comme d'habitude.
 
-## Pokemon type changes
-These changes were all made to make the pokemon more fun to use / more unique from similar pokemon / less bad.
-As soon as you have your first badge (Boulderbadge) from Pewter City, there is an NPC in a house in indigo plateau route 23 past the first guard who can customize which pokemon use new types or their original types if you don't like these changes. However I would recommend keeping at least some of them turned on because they are pretty fun to use and the game and the pokemon's movesets are kind of balanced around them.
-- Ninetales is Fire/Ghost
-- Golduck is Water/Psychic
-- Seadra is Water/Dragon
-- Marowak is Ground/Ghost
-- Kabuto/Kabutops are Rock/Bug
-- Butterfree is Bug/Psychic
-- Doduo/Dodrio are Flying/Ground
-- Voltorb/Electrode are Electric/Fire
-- Fearow is Flying/Fighting
-- Kingler is Water/Ground
-- Pinsir is Bug/Fighting
-- Electabuzz is Electric/Fighting
-- Mr Mime is Psychic/Ghost
-- Sandshrew and Sandslash are Ground/Normal (stronger slash damage!)
-- Ponyta and Rapidash are now Fire/Normal 
-- Goldeen and Seaking are now Water/Normal
-- Victreebel is Grass/Dragon
+## Modifications des types des Pokémon
+Ces changements visent à rendre certains Pokémon plus amusants à jouer / plus uniques / moins mauvais.
+Dès l'obtention de votre premier Badge (Badge Roche) à Argenta, un PNJ dans une maison de la Route 23 du Plateau Indigo, après le premier garde, vous permettra de choisir entre les nouveaux types et les types d'origine de chaque Pokémon. Je recommande toutefois d'en conserver au moins quelques-uns, car ils sont amusants et l'équilibrage du jeu et des capacités en tient compte.
+- Feunard : Feu/Spectre
+- Akwakwak : Eau/Psy
+- Hypocéan : Eau/Dragon
+- Ossatueur : Sol/Spectre
+- Kabuto/Kabutops : Roche/Insecte
+- Papilusion : Insecte/Psy
+- Doduo/Dodrio : Vol/Sol
+- Voltorbe/Électrode : Electrik/Feu
+- Rapasdepic : Vol/Combat
+- Krabboss : Eau/Sol
+- Scarabrute : Insecte/Combat
+- Élektek : Electrik/Combat
+- M. Mime : Psy/Spectre
+- Sabelette/Sablaireau : Sol/Normal (dégâts de Tranche augmentés !)
+- Ponyta/Galopa : Feu/Normal
+- Poissirène/Poissoroy : Eau/Normal
+- Empiflor : Plante/Dragon
 
-Additionally, GHOST type was made a "Dynamic type". What this means, is it can do Physical or Special damage depending on your base SPECIAL and base ATTACK. If base SPECIAL is higher than base ATTACK for your pokemon, GHOST type moves will be use SPECIAL for damage calculation. Otherwise, they will use ATTACK and the opponent's DEFENSE for damage calculation. This lets pokemon like Gengar be a bit more useful while also allowing physical attacker pokemon to benefit from physical damage on ghost attacks.
+De plus, le type SPECTRE devient un "type dynamique". Il inflige des dégâts physiques ou spéciaux selon les statistiques de base du Pokémon :
 
-## Trainer AI changes
-- Opponents can have tracked PP if you turn on NPC PP in the game options
-- AI won't spam agility or amnesia repeatedly just because your pokemon is weak to psychic moves. The subroutine for selecting super effective moves ignores moves that do no damage now.
-- Similarly, AI will avoid using OHKO moves just because they seem super effective if they would never work. But it will use them if they have a chance of working on you.
-- AI using items or switching pokemon will always go at the start of the turn like it does for the player instead of when their turn starts
-- Most Trainers will avoid using Dream Eater if you're not asleep
-- Most Trainers will avoid using Leech Seed, Disable, Light Screen, Reflect, Focus Energy, Mist, etc effects if they already used it and it would not do anything
-- Most Trainers will avoid using confusion-inflicting moves if you're already confused
-- Most Trainers will avoid using healing moves like recover at full health
-- Most trainers will avoid using priority moves if you're invulnerable due to FLY or DIG
-- Smarter trainers will favor using priority moves if you're faster than them
-- Smarter trainers will favor using draining moves like Mega Drain when they're at low health
-- Smarter trainers will use MIRROR MOVE if it results in a move that is super effective
-- Smarter trainers will favor 4x super effective moves even more than normal super effective moves
-- Expert trainers will favor using healing moves like recover when they're at low health
-- Expert trainers will heavily favor using dream eater if you're asleep
-- Expert trainers will try to apply statuses if you don't have one
-- Trainers that can use boosting items like X Attack will only do so if it appears safe to use it.
+- Si son SPÉCIAL de base est supérieur à son ATTAQUE, les capacités Spectre utilisent le SPÉCIAL.
+- Sinon, elles utilisent l'ATTAQUE du lanceur et la DÉFENSE de la cible.
 
-## Audio Changes
-- If you set Audio mode to OG+ in the options, an entirely new 2-minute-long song I composed for the Safari Zone based on the original short evolution song will play.
-- On the 5th page of options, you can turn on an option to pause/resume overworld music between battles instead of restarting the music after every wild encounter or battle.
-- The ghosts in pokemon tower now have a sound effect on encountering
-- Booting up a TM or HM has a little sound effect
-- Pushing a boulder down a hole in Seafoam / Victory road has a sound and feedback with it now
-- When you fall down a hole in Seafoam / Victory road, there is a sound effect with it now
-- Giovanni's Theme (unused music from Pokemon Yellow) was added when you encounter Giovanni. You must set MUSIC option to OG+ for it to play.
-- Beta victory theme (battle victory "guide") was added when you defeat female trainers. You must set MUSIC option to OG+ for it to play.
-- Beta healing theme (healing theme "pallet town") was added when you rest at your house in PALLET TOWN. You must set MUSIC option to OG+ for it to play.
-- The Elite Four will all use the gym battle theme instead of the first three using the default battle music.
-- A small sound effect was added when you toss an item.
-- A small sound effect plays when you get on or off your bicycle, but only if you have the option BIKE SONG set to OFF.
-- A small sound effect plays when you push a boulder onto a switch in Victory Road.
-- A small sound effect plays when you light up Rock Tunnel with FLASH.
-- A small sound effect plays when the doors behind the first 3 elite four members open upon defeating them.
-- If you set MUSIC to OG+ mode, 6 pokemon (POLIWHIRL, VILEPLUME, GOLDEEN, RHYHORN, OMANYTE, DITTO) will have slightly different cries so their cries aren't exact duplicates of other pokemon.
-- Music volume was decreased when you enter the pokemon nicknaming screen.
-- The game's unused fanfare sound effect has been used in a couple of new events such as the VOLCANO area.
-- A sound plays when bill enters the teleporter.
-- A sound plays when using PP Up to increase a move's Max PP.
+Cela rend notamment Ectoplasma plus utile, tout en permettant aux Pokémon physiques de profiter de leurs statistiques avec les capacités Spectre.
 
-## Pokemon Green visuals
-The version-specific visuals of japanese pokemon green were added into PureGreen.
-- Slot machines
+## Modifications de l'IA des Dresseurs
+- Les PP des adversaires peuvent être suivis si l'option PP des PNJ est activée dans les options du jeu.
+- L'IA n'utilisera plus Réflexion ou Amnésie en boucle simplement parce que votre Pokémon est faible face aux capacités Psy. La routine de sélection des capacités super efficaces ignore désormais celles qui n'infligent aucun dégât.
+- De même, l'IA évitera d'utiliser des capacités mettant K.O. en un coup si elles ne peuvent pas fonctionner, même si elles semblent super efficaces. Elle les utilisera toutefois si elles ont une chance de réussir.
+- L'utilisation d'objets et les changements de Pokémon par l'IA auront toujours lieu au début du tour, comme pour le joueur, et non au moment où le Dresseur doit jouer.
+- La plupart des Dresseurs éviteront d'utiliser Dévorêve si votre Pokémon n'est pas endormi.
+- La plupart des Dresseurs éviteront d'utiliser Vampigraine, Entrave, Mur Lumière, Protection, Puissance, Brume et autres capacités à effet persistant si leur effet est déjà actif et qu'une nouvelle utilisation serait inutile.
+- La plupart des Dresseurs éviteront les capacités provoquant la confusion si votre Pokémon est déjà confus.
+- La plupart des Dresseurs éviteront les capacités de soin comme Soin lorsque leurs Pokémon ont tous leurs PV.
+- La plupart des Dresseurs éviteront les capacités prioritaires si votre Pokémon est invulnérable grâce à Vol ou Tunnel.
+- Les Dresseurs plus expérimentés privilégieront les capacités prioritaires si votre Pokémon est plus rapide que le leur.
+- Les Dresseurs plus expérimentés privilégieront les capacités qui absorbent des PV, comme Méga-Sangsue, lorsque leurs Pokémon ont peu de PV.
+- Les Dresseurs plus expérimentés utiliseront Copie si elle permet d'obtenir une capacité super efficace.
+- Les Dresseurs plus expérimentés privilégieront encore davantage les capacités infligeant des dégâts quadruplement super efficaces.
+- Les Dresseurs experts privilégieront les capacités de soin comme Soin lorsque leurs Pokémon ont peu de PV.
+- Les Dresseurs experts privilégieront fortement Dévorêve si votre Pokémon est endormi.
+- Les Dresseurs experts tenteront d'infliger des altérations de statut à vos Pokémon s'ils n'en ont aucune.
+- Les Dresseurs disposant d'objets augmentant les statistiques, comme Attaque +, ne les utiliseront que s'ils estiment pouvoir le faire sans risque.
+
+## Modifications Audio
+- Si vous sélectionnez le mode audio OG+ dans les options, un nouveau morceau de 2 minutes, composé par l'auteur et inspiré du court thème d'évolution original, sera joué dans le Parc Safari.
+- À la 5e page des options, vous pouvez activer une option permettant de mettre la musique de l'overworld en pause pendant les combats, puis de la reprendre à la fin, au lieu de la relancer depuis le début après chaque rencontre ou combat.
+- Les fantômes de la Tour Pokémon disposent désormais d'un effet sonore lorsqu'ils apparaissent.
+- Un petit effet sonore est joué lors de l'utilisation d'une CT ou d'une CS.
+- Pousser un rocher dans un trou sur les Îles Écume ou la Route Victoire déclenche désormais un effet sonore et un retour visuel.
+- Tomber dans un trou sur les Îles Écume ou la Route Victoire déclenche désormais un effet sonore.
+- Le thème de Giovanni (musique inutilisée de Pokémon Jaune) est joué lors de sa rencontre. Nécessite le mode MUSIQUE OG+.
+- Le thème de victoire bêta (thème de victoire des combats "Guide") est joué après avoir vaincu une Dresseuse. Nécessite le mode MUSIQUE OG+.
+- Le thème de soin bêta (thème de soin "Bourg Palette") est joué lorsque vous vous reposez chez vous à BOURG PALETTE. Nécessite le mode MUSIQUE OG+.
+- Le Conseil des 4 utilise désormais entièrement le thème des combats d'Arène, au lieu d'utiliser le thème de combat classique pour ses trois premiers membres.
+- Un petit effet sonore est désormais joué lorsque vous jetez un objet.
+- Un petit effet sonore est joué lorsque vous montez sur votre vélo ou en descendez, mais uniquement si l'option SON VELO est désactivée.
+- Un petit effet sonore est joué lorsque vous poussez un rocher sur un interrupteur dans la Route Victoire.
+- Un petit effet sonore est joué lorsque vous éclairez la Grotte Sombre avec FLASH.
+- Un petit effet sonore est joué lorsque les portes derrière les trois premiers membres du Conseil des 4 s'ouvrent après leur défaite.
+- En mode MUSIQUE OG+, les cris de 6 Pokémon (Têtarte, Rafflesia, Poissirène, Rhinocorne, Amonita et Métamorph) sont légèrement modifiés afin qu'ils ne soient plus des copies exactes des cris d'autres Pokémon.
+- Le volume de la musique diminue lorsque vous accédez à l'écran de surnom des Pokémon.
+- Un effet sonore inutilisé du jeu est réemployé lors de quelques nouveaux événements, notamment dans la zone VOLCAN.
+- Un effet sonore est joué lorsque Léo entre dans le téléporteur.
+- Un effet sonore est joué lorsque vous utilisez un PP Plus pour augmenter les PP max d'une capacité.
+
+## Visuels de Pokémon Midori
+Les éléments visuels propres à la version japonaise Pokémon Midori (version Verte) ont été intégrés dans VertPur.
+- Machines à sous
 
 ![Green Slots](/screenshots/green_slots.png?raw=true)
-- SGB Borders
+- Bordures SGB
 
 ![Green SGB Border](/screenshots/green_title_sgb_border.png?raw=true)
-- Title Screen
+- Écran Titre
 
-## Things that Will Remain Unchanged
-- I will not make the game use Gen 2 colors/tilesets/music/sprites/etc.
-- I will not implement the physical/special split. I balanced the game around there not being one.
-- I will not split the SPECIAL stat into SPECIAL DEFENSE and SPECIAL ATTACK. I balanced the game around the combined special stat.
-- I will not add dark, steel, or fairy type. 
-- I will not mess with the type matchup chart outside of the tweakable options already provided.
-- I will not make a version without the base stat changes
-- I will not make a version without the move changes
-- I will not make a version without learnset / TM / trainer party changes
-- I will not add beta pokemon to the game (just about all of the decent beta mons for gen 1 were already repurposed as official pokemon in later games)
-- I will not add "EXP.SHARE" to the game. The game is balanced around raising each pokemon you have in battle, and it's a hallmark of gen 1! It takes discipline to raise each one up rather than ignoring them! Later on in the game you have many options to raise pokemon quickly, such as duplicating rare candies with the item duplication glitch, buying rare candies in a secret area, the BOOSTER CHIP, easy repeatable training in the SAFARI ZONE, and boosted EXP wild pokemon in Route 23. So don't worry too much about it.
-- I will not add a "Caught Pokemon" indicator in battle. Why? It changes the feel of the game. You don't really have to ever look at the pokedex if this feature is introduced. Also, I think it's a hallmark of gen 1 to not have this feature and to memorize which pokemon you have caught already.
-- I will not add a "Move Relearner". This really changes the feel of gen 1, where you have to think carefully about deleting learnset moves. Don't worry, most great moves can be relearned via TMs anyway. The excellent moves are later in learnsets, so it's unlikely you'll miss them.
-- If you want less changes but still the quality of life / bugfix stuff, I'd recommend taking a look at the romhack called shinpokered.
+## Ce qui restera inchangé
+- Je ne modifierai pas les couleurs, tilesets, musiques, sprites, etc. pour leur donner le style de la génération 2.
+- Je n'implémenterai pas la séparation physique/spécial. L'équilibrage du jeu repose sur son absence.
+- Je ne séparerai pas la statistique SPECIAL en DEFENSE SPECIAL et ATTAQUE SPECIAL. L'équilibrage repose sur la statistique spéciale combinée.
+- Je n'ajouterai pas les types Ténèbres, Acier ou Fée.
+- Je ne modifierai pas le tableau des types en dehors des options déjà proposées.
+- Je ne proposerai pas de version sans les changements des statistiques de base.
+- Je ne proposerai pas de version sans les changements des attaques.
+- Je ne proposerai pas de version sans les changements des capacités apprises, des CT et des équipes des dresseurs.
+- Je n'ajouterai pas les Pokémon bêta au jeu (presque tous les Pokémon bêta intéressants de la génération 1 ont déjà été réutilisés comme Pokémon officiels dans les jeux suivants).
+- Je n'ajouterai pas de "MULTI EXP" au jeu. L'équilibrage repose sur le fait d'entraîner chaque Pokémon de son équipe, et c'est une caractéristique de la génération 1 ! Il faut de la discipline pour tous les entraîner au lieu d'en délaisser certains. Plus tard dans le jeu, plusieurs moyens permettent de faire monter rapidement ses Pokémon : duplication de Super Bonbons grâce au glitch de duplication d'objets, achat de Super Bonbons dans une zone secrète, PUCE EXP, entraînement facile et répétable dans la ZONE SAFARI et Pokémon sauvages donnant davantage d'EXP sur la Route 23. Donc pas d'inquiétude.
+- Je n'ajouterai pas d'indicateur "Pokémon capturé" pendant les combats. Pourquoi ? Cela change les sensations de jeu. Avec cette fonctionnalité, on n'a pratiquement plus besoin de consulter le Pokédex. Je pense aussi que l'absence de cet indicateur fait partie de l'identité de la génération 1 : il faut se souvenir des Pokémon déjà capturés.
+- Je n'ajouterai pas de "Maître des capacités". Cela change beaucoup l'expérience de la génération 1, où il faut bien réfléchir avant d'oublier une capacité apprise. Pas d'inquiétude : la plupart des bonnes capacités peuvent être réapprises grâce aux CT. Les meilleures capacités arrivent plus tard dans les listes d'apprentissage, il est donc peu probable que vous les manquiez.
+- Si vous préférez moins de changements tout en conservant les améliorations de confort et les corrections de bugs, je vous recommande de jeter un œil au ROM hack shinpokered.
