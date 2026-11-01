@@ -41,7 +41,7 @@ _SecretLabBattleText3::
 	text "CHEF: Comment t'es"
 	line "arrivé ici?"
 	para "<PLAYER>, hein?"
-	para "T'es le CHAMPION,"
+	para "T'es le Maître,"
 	line "c'est ça?"
 	para "Ce titre ne"
 	line "m'impressionne"

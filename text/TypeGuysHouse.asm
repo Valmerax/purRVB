@@ -84,8 +84,8 @@ _TypeGuysHouseShortBookCaseText2::
 	done
 
 _TypeGuysHouseSculptureText::
-	text "CHAMPION TOURNOI"
-	line "#MON 1973"
+	text "Maître #MON"
+	line "TOURNOI 1973"
 	para "Ce trophée est"
 	line "prestigieux!"
 	para "Oh!"
@@ -98,7 +98,7 @@ _TypeGuysHouseRightTallBookcaseText::
 	line "PLATEAU INDIGO@"
 	text_end
 _TypeGuysHouseRightTallBookcaseText2::
-	text "<PARA>Les CHAMPIONS,"
+	text "<PARA>Les Maîtres,"
 	line "même anciens, ont"
 	cont "droit au gîte et"
 	cont "au couvert à la"

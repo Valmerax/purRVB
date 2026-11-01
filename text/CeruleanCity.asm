@@ -312,7 +312,7 @@ _OakBeatenText::
 _OakFirstLoseText::
 	text "Super combat!"
 	para "Digne d'un"
-	line "CHAMPION!"
+	line "Maître!"
 	para "Je tiens à te"
 	line "récompenser."
 	para "Ah, que dirais-tu"

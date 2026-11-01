@@ -43,7 +43,7 @@ _ChampArenaAssistantStartBattle::
 	line "messieurs!"
 	para "Voici un nouvel"
 	line "adversaire pour"
-	cont "notre CHAMPION!"
+	cont "notre Maître!"
 	done
 
 _ErikaIntroText::
@@ -88,7 +88,7 @@ _BlaineIntroText2::
 	cont "jusqu'ici!"
 	para "Ca se passe bien"
 	line "sur le trône du"
-	cont "CHAMPION?"
+	cont "Maître?"
 	prompt
 
 _BlaineLostText::
@@ -113,7 +113,7 @@ _SurgeIntroText2::
 	line "un bail,"
 	cont "p'tit gars!"
 	para "Ou plutôt,"
-	line "CHAMPION!"
+	line "Maître!"
 	para "T'as plus de cran"
 	line "que prévu!"
 	para "Mais j'y allais"
@@ -174,7 +174,7 @@ _BrunoIntroText::
 
 _BrunoIntroText2::
 	text "ALDO: Comment ça"
-	line "va p'tit CHAMPION?"
+	line "va p'tit Maître?"
 	para "Je suis parti"
 	line "m'entraîner en"
 	cont "pleine nature!"
@@ -243,7 +243,7 @@ _LanceIntroText::
 _LanceIntroText2::
 	text "PETER: Tu es trop"
 	line "décontracté pour"
-	cont "rester CHAMPION."
+	cont "rester Maître."
 	para "Mes dragons et"
 	line "moi, on mérite la"
 	cont "première place!"
@@ -392,7 +392,7 @@ _AgathaIntroText2::
 
 _AgathaIntroText3::
 	text "Quant à toi"
-	line "CHAMPION, j'ai"
+	line "Maître, j'ai"
 	cont "quelques leçons"
 	cont "à te donner."
 	para "Tu apprendras"
@@ -414,12 +414,12 @@ _GymGuideIntroText::
 	text "Quelle surprise!"
 	para "Le GUIDE veut"
 	line "affronter le"
-	cont "CHAMPION?"
+	cont "Maître?"
 	prompt
 
 _GymGuideIntroText2::
 	text "GUIDE: Yo!"
-	line "CHAMPION!"
+	line "Maître!"
 	para "J'ai vu des"
 	line "combats par ici,"
 	cont "alors j'ai voulu"
@@ -456,7 +456,7 @@ _GymGuideWonText::
 	prompt
 
 _RivalIntroText::
-	text "L'ancien CHAMPION,"
+	text "L'ancien Maître,"
 	line "<RIVAL>!"
 	prompt
 
@@ -698,10 +698,9 @@ _ChampArenaRivalBeforeLeaves::
 
 _IndigoPlateauArenaAssistantOnlyEliteFourAllowed::
 	text "Désolé!"
-	para "Seuls les"
-	line "CHAMPIONS et le"
-	cont "CONSEIL des 4"
-	cont "peuvent aller"
+	para "Seuls les Maîtres"
+	line "et le CONSEIL des"
+	cont "4 peuvent aller"
 	cont "plus loin."
 	para "Si tu souhaites"
 	line "les affronter,"
@@ -712,7 +711,7 @@ _IndigoPlateauArenaAssistantOnlyEliteFourAllowed::
 _IndigoPlateauArenaAssistantChampAttained::
 	text "Hé!"
 	para "Te voilà,"
-	line "CHAMPION!"
+	line "Maître!"
 	para "On te cherchait!"
 	para "Suis-moi dans"
 	line "l'ARENE des"

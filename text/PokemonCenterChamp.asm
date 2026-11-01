@@ -1,13 +1,13 @@
 _PokemonCenterChampText::
 	text "Oh!"
-	line "Le CHAMPION!"
+	line "Le Maître!"
 	para "C'est un honneur"
 	line "de soigner vos"
 	cont "#MON."
 	done
 
 _PokemonCenterFastChampText::
-	text "CHAMPION! Admirez"
+	text "Maître! Admirez"
 	line "ce soin express!"
 	done
 

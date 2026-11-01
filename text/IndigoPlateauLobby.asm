@@ -17,7 +17,7 @@ _IndigoPlateauLobbyGymGuideText::
 	done
 
 _IndigoPlateauGymGuideChampGreeting::
-	text "Yo! Champion!!"
+	text "Yo! Maître!!"
 	line "@"
 	text_far _GenericCongratulationsText
 	text_start
