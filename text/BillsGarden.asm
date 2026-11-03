@@ -1,6 +1,7 @@
 _BillsGardenSignText::
 	text "JARDIN DE LEO"
-	para "Visiteurs bonjour!"
+	para "Visiteurs"
+	line "bienvenus!"
 	para "On ne sait jamais"
 	line "qui on peut"
 	cont "croiser ici!"
@@ -8,7 +9,7 @@ _BillsGardenSignText::
 
 _BillsGardenEavesdropQuestion::
 	text "Les écouter en"
-	line "cachette?"
+	line "douce?"
 	prompt
 
 ; Erika and Sabrina
@@ -20,8 +21,7 @@ _BillsGardenErikaSabrinaOverheardText::
 	cont "cette plage!"
 	para "C'est bien plus"
 	line "calme que celle"
-	cont "au sud de"
-	cont "PARMANIE!"
+	cont "de PARMANIE!"
 	para "MORGANE: Enfin,"
 	line "on peut profiter"
 	cont "du soleil sans"
@@ -45,7 +45,7 @@ _BillsGardenErikaText1::
 	line "se détendre."
 	para "C'est très"
 	line "tranquille."
-	para "Les champions"
+	para "Les championnes"
 	line "d'arène doivent"
 	cont "aussi se relaxer!"
 	para "MORGANE et moi, on"
@@ -63,9 +63,9 @@ _BillsGardenErikaText2Yes::
 	para "Et je peux lire"
 	line "dans ses pensées."
 	para "Je le respecte,"
-	line "mais je ne vais"
-	cont "pas me mettre en"
-	cont "bikini devant lui."
+	line "mais je ne veux"
+	cont "pas qu'il me voie"
+	cont "en bikini."
 	prompt
 
 _BillsGardenErikaText2No::
@@ -90,8 +90,7 @@ _BillsGardenSabrinaText::
 	line "ton esprit."
 	para "Inutile de croire"
 	line "que tu espionnes"
-	cont "des jeunes"
-	cont "femmes."
+	cont "de jeunes femmes."
 	para "Mais je perçois"
 	line "aussi une lueur"
 	cont "d'espoir en toi."
@@ -104,8 +103,8 @@ _BillsGardenSabrinaText::
 	cont "d'ARENE, allons"
 	cont "profiter de la"
 	cont "plage."
-	para "Interdit aux"
-	line "Maîtres."
+	para "Interdit au"
+	line "Maître."
 	para "Va-t'en!"
 	done
 
@@ -117,7 +116,7 @@ _BillsGardenBlueDaisyOverheardText::
 	para "Et j'ai tout"
 	line "perdu!"
 	para "Comment j'ai pu"
-	line "être aussi faible?"
+	line "être si faible?"
 	para "NINA: Tu as fait"
 	line "de ton mieux."
 	para "Tu dois t'entraîner"
@@ -128,9 +127,8 @@ _BillsGardenBlueDaisyOverheardText::
 	para "Ne baisse pas les"
 	line "bras!"
 	para "<RIVAL>: Soupir."
-	para "Merci p'tite"
-	line "soeur!."
-	para "Tu as raison."
+	para "Merci soeurette."
+	para "T'as raison."
 	line "Je ne dois pas"
 	cont "déprimer."
 	done
@@ -141,10 +139,10 @@ _BillsGardenBlueText::
 	line "que je ne voulais"
 	cont "pas voir."
 	para "Tu veux quoi?"
-	para "Tu es venu pour"
-	line "te moquer de moi?"
+	para "T'es venu te"
+	line "moquer de moi?"
 	para "Minable."
-	para "Ne t'inquiète pas."
+	para "T'inquiète pas."
 	para "L'entraînement de"
 	line "mon équipe vient"
 	cont "tout juste de"
@@ -234,7 +232,7 @@ _BillsGardenBikeShopOwnerMistyOverheardText::
 	line "Tu avais raison!"
 	para "C'est l'endroit"
 	line "idéal pour un"
-	cont "rendez-vous!"
+	cont "rencard!"
 	para "Tu aimes vraiment"
 	line "l'eau, hein?"
 	para "ONDINE: C'est"
@@ -270,10 +268,10 @@ _BillsGardenMistyText::
 	para "Qu'est-ce que TU"
 	line "fais là?"
 	para "Ne gâche pas notre"
-	line "rendez-vous!"
-	para "J'allais justement"
-	line "lui montrer la"
-	cont "nage papillon!"
+	line "rencard!"
+	para "J'allais lui"
+	line "montrer la nage"
+	cont "papillon!"
 	prompt
 
 _BillsGardenMistyText2::
@@ -284,9 +282,8 @@ _BillsGardenMistyText2::
 	prompt
 
 _BillsGardenMistyText3::
-	text "ONDINE: C'est" 
-	line "pour ça que je"
-	cont "t'apprends!"
+	text "ONDINE: Je vais"
+	line "t'apprendre!"
 	para "Sinon, comment je"
 	line "pourrais te"
 	cont "remercier pour ma"
@@ -297,8 +294,8 @@ _BillsGardenMistyText3::
 ; agatha and oak
 
 _BillsGardenAgathaOakOverheardText::
-	text "AGATHA: Espèce de"
-	line "vieux schnock!"
+	text "AGATHA: Vieux"
+	line "schnock!"
 	para "Ce combat n'était"
 	line "pas mal du tout!"
 	para "Tu n'as pas perdu"
@@ -362,8 +359,7 @@ _BillsGardenOakText2::
 	line "moi ton sarcasme,"
 	cont "SAMUEL."
 	para "CHEN: AGATHA et"
-	line "moi étions en"
-	cont "quelque sorte"
+	line "moi étions"
 	cont "rivaux, comme toi"
 	cont "et <RIVAL>."
 	para "Tu as vu comment"
@@ -375,9 +371,8 @@ _BillsGardenOakText2::
 	para "AGATHA: En allant"
 	line "faire un tour au"
 	cont "CENTRE #MON."
-	para "Il paraît qu'ils"
-	line "avaient une"
-	cont "machine de soin"
+	para "Ils avaient une"
+	line "machine de soin"
 	cont "juste pour lui!"
 	para "Héhéhéhé!"
 	prompt
@@ -483,8 +478,8 @@ _BillsGardenMrFujiArmoredMewtwoText::
 _BillsGardenGiovanniMewtwoText::
 	text "Impossible<...>"
 	line "MEWTWO??"
-	para "Tu l'as trouvé au"
-	line "fin fond de la"
+	para "Tu l'as trouvé"
+	line "au fond de la"
 	cont "CAVERNE AZUREE?"
 	para "Et tu as réussi à"
 	line "le capturer?"
@@ -509,10 +504,9 @@ _BillsGardenGiovanniMewtwoText::
 	para "Il te faudra une"
 	line "clé pour entrer."
 	para "Si tu en trouves"
-	line "une, jette un"
-	cont "oeil dans les"
-	cont "profondeurs du"
-	cont "vieux manoir."
+	line "une, regarde dans"
+	cont "les profondeurs"
+	cont "du vieux manoir."
 	done
 
 _BillsGardenGiovanniArmoredMewtwoText::
@@ -571,14 +565,14 @@ _BillsGardenDadText3::
 	prompt
 
 _BillsGardenDadText3No::
-	text "PAPA: Il est très"
-	line "occupé!"
-	para "Laisse-le faire"
-	line "ses courses!"
-	para "Ne t'inquiète pas,"
-	line "tu peux passer à"
-	cont "la maison quand"
-	cont "tu veux!"
+	text "PAPA: C'est un"
+	line "garçon occupé!"
+	para "Laisse-le faire ce"
+	line "qu'il a à faire!"
+	para "Ne t'en fais pas,"
+	line "tu passe à la"
+	cont "maison quand tu"
+	cont "veux!"
 	done
 
 _BillsGardenDadText3Yes::
@@ -608,7 +602,8 @@ _BillsGardenDadText4::
 	line "plaisante."
 	para "On t'attend à la"
 	line "maison!"
-	para "A bientôt, fiston!"
+	para "A bientôt,"
+	line "fiston!"
 	done
 
 _BillsGardenMomText::
@@ -626,6 +621,6 @@ _BillsGardenMomText::
 	para "Mon petit garçon"
 	line "grandit!"
 	para "Sniff!"
-	para "Passe nous voir à"
+	para "Viens nous voir à"
 	line "la maison, OK?"
 	done

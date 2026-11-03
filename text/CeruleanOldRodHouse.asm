@@ -13,7 +13,7 @@ _CeruleanOldRodHouseFishingGuruTakeThisText::
 	text "Terrib'! Toi,"
 	line "j't'aime bien!"
 
-	para "Prends ça et..."
+	para "Prends ça et<...>"
 	line "Pêche! Pêche!<PARA>@"
 	text_end
 
@@ -31,8 +31,8 @@ _CeruleanOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	done
 
 _CeruleanOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh...ben..."
-	line "C'est dommage..."
+	text "Oh<...>ben<...>"
+	line "C'est dommage<...>"
 	done
 
 _CeruleanOldRodHouseFishingGuruHowAreTheFishBitingText::
