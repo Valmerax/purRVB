@@ -30,21 +30,20 @@ VermilionGuruHouseText1:
 	rst TextScriptEnd
 
 .DoYouLikeToFishText:
-	text_far _VermilionOldRodHouseFishingGuruDoYouLikeToFishText
-	text_far_end _VermilionOldRodHouseISimplyLoveFishing
+	text_far_end _VermilionGoodRodHouseFishingGuruDoYouLikeToFishText
 
 .TakeThisText:
-	text_far _VermilionOldRodHouseFishingGuruTakeThisText
+	text_far _VermilionGoodRodHouseFishingGuruTakeThisText
 	text_far _GenericReceivedItemA
 	sound_get_item_1
 	text_end
 
 .ThatsSoDisappointingText:
-	text_far_end _LastTwoGurusTextNo
+	text_far_end _VermilionGoodRodHouseFishingGuruThatsSoDisappointingText
 
 .HowAreTheFishBitingText:
-	text_far _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText
-	text_far_end _VermilionOldRodHouseGoodRodInfo
+	text_far _VermilionGoodRodHouseFishingGuruHowAreTheFishBitingText
+	text_far_end _VermilionGoodRodHouseGoodRodInfo
 
 .NoRoomText:
-	text_far_end _LastTwoGurusTextBagFull
+	text_far_end _VermilionGoodRodHouseFishingGuruNoRoomText

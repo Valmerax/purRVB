@@ -1,25 +1,25 @@
 _FuchsiaGuruIntro::
-	text "Je suis le cousin"
-	line "germain du MAITRE"
+	text "Mon frère,"
+	line "j'suis le cousin"
+	cont "germain du MAITRE"
 	cont "PECHEUR!"
 	prompt
 
 _LastTwoGurusTextQuestion::
-	para "Moi, mon truc,"
-	line "c'est la pêche!"
+	text "Moi, dans la vie,"
+	line "j'suis pêcheur!"
 
-	para "T'aimes la"
-	line "pêche, petit?"
+	para "T'aimes la pêche,"
+	line "mon frère?"
 	done
 
 _LastTwoGurusTextYes::
-	text "Cool! T'as l'air"
-	line "d'un bon gars!"
+	text "Trop cool!"
+	line "J't'aime bien!"
 
-	para "Prends ça!"
-	line "Que la Grand'"
-	cont "Pêche soit avec"
-	cont "toi, p'tit!"
+	para "Prends cette"
+	line "canne à pêche,"
+	cont "mon frère!"
 	prompt
 
 _LastTwoGurusTextAlreadyHaveSuperRod::
@@ -32,25 +32,32 @@ _LastTwoGurusTextAlreadyHaveSuperRod::
 	para "Que faire<...>"
 
 	para "Hmm, peut-être que"
-	line "ceci te sera"
-	cont "utile à la place?"
+	line "ceci te sera plus"
+	cont "utile?"
 	prompt
 
 _LastTwoGurusTextNo::
-	text "Oh<...>Pas cool!"
-	line "Pas cool du tout!"
+	text "Oh<...> Je suis"
+	line "très déçu<...>"
 	done
 
 _LastTwoGurusTextBagFull::
-	text "Oh non!"
+	text "Ha ben non!"
 
-	para "Ton inventaire"
-	line "est plein!"
+	para "J'avais un cadeau"
+	line "pour toi, mais"
+	cont "t'as plus de"
+	cont "place!"
 	done
 
 _FuchsiaGuruEnd::
-	text "La pêche, une"
-	line "passion d'hommes!"
+	text "La pêche c'est"
+	line "comme la vie!"
+
+	para "Quand ça mord,"
+	line "ça va! "
+	cont "Quand ça mord"
+	cont "pas, ça va pas!"
 
 	para "Avec une superbe"
 	line "MEGA CANNE à tes"

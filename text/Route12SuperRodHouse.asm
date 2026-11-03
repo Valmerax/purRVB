@@ -1,7 +1,8 @@
 _Route12GuruIntro::
-	text "J'suis le petit"
-	line "frère du maître"
-	cont "pêcheur!"
+	text "Mon frère,"
+	line "j'suis le p'tit"
+	cont "frère du MAITRE"
+	cont "PECHEUR!"
 	prompt
 
 _Route12GuruEnd::

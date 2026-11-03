@@ -30,24 +30,23 @@ CeruleanOldRodHouse1Text1:
 	rst TextScriptEnd
 
 .CeruleanOldRodHouseImTheFishingGuruText:
-	text_far _CeruleanOldRodHouseImTheFishingGuruText
-	text_far_end _VermilionOldRodHouseISimplyLoveFishing
+	text_far_end _CeruleanOldRodHouseFishingGuruDoYouLikeToFishText
 
 .CeruleanOldRodHouseGiveRod:
-	text_far _VermilionOldRodHouseFishingGuruTakeThisText
+	text_far _CeruleanOldRodHouseFishingGuruTakeThisText
 	text_far _GenericReceivedItemA
 	sound_get_item_1
-	text_far_end _CeruleanOldRodHouseFishingIsAWayOfLifeText
+	text_far_end _CeruleanOldRodHouseFishingGuruFishingIsAWayOfLifeText
 
 .CeruleanOldRodHouseDisappointing:
-	text_far_end _LastTwoGurusTextNo
+	text_far_end _CeruleanOldRodHouseFishingGuruThatsSoDisappointingText
 
 .CeruleanOldRodHouseHowAreFishBiting:
-	text_far _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText
+	text_far _CeruleanOldRodHouseFishingGuruHowAreTheFishBitingText
 	text_far_end _CeruleanOldRodHouseOldRodInfo
 
 .CeruleanOldRodHouseNoRoom:
-	text_far_end _LastTwoGurusTextBagFull
+	text_far_end _CeruleanOldRodHouseFishingGuruNoRoomText
 
 ; PureRGBnote: ADDED: some text where it seems like there should be an interaction.
 

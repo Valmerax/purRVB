@@ -1,34 +1,38 @@
-_VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "Je suis le<...>"
-	line "grand frère"
-	cont "MAITRE PECHEUR!@"
-	text_end
+_VermilionGoodRodHouseFishingGuruDoYouLikeToFishText::
+	text "Je suis le grand"
+	line "frère du MAITRE"
+	cont "PECHEUR!"
 
-_VermilionOldRodHouseISimplyLoveFishing::
-	text "<PARA>La pêche<...>moi<...>"
-	line "J'adore ça!"
+	para "Moi, mon truc,"
+	line "c'est la pêche!"
 
-	para "Et toi, p'tite"
-	line "tête?"
+	para "T'aimes la"
+	line "pêche, petit?"
 	done
 
-_VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Terrib'! Toi,"
-	line "j't'aime bien!"
+_VermilionGoodRodHouseFishingGuruTakeThisText::
+	text "Cool! T'as l'air"
+	line "d'un bon gars!"
 
-	para "Prends ça et<...>"
-	line "Pêche! Pêche!<PARA>@"
+	para "Prends ça!"
+	line "Que la Grand'"
+	cont "Pêche soit avec"
+	cont "toi, p'tit!<PARA>@"
 	text_end
 
-_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "B'jour à toi,"
+_VermilionGoodRodHouseFishingGuruThatsSoDisappointingText::
+	text "Oh<...>Pas cool!"
+	line "Pas cool du tout!"
+	done
+
+_VermilionGoodRodHouseFishingGuruHowAreTheFishBitingText::
+	text "Salut,"
 	line "<PLAYER>!"
 
-	para "Ca mord?"
-	line "Hein? Hein?@"
+	para "Ca mord?@"
 	text_end
 
-_VermilionOldRodHouseGoodRodInfo::
+_VermilionGoodRodHouseGoodRodInfo::
 	text "<PARA>La SUPER CANNE"
 	line "que je t'ai donné"
 	cont "est fiable!"
@@ -36,6 +40,14 @@ _VermilionOldRodHouseGoodRodInfo::
 	para "Utilise-la en mer"
 	line "ou dans les lacs."
 
-	para "Tu vas attraper"
-	line "plein de #MON!"
+	para "Elle peut attraper"
+	line "plein de #MON"
+	cont "différents!"
+	done
+
+_VermilionGoodRodHouseFishingGuruNoRoomText::
+	text "Oh non!"
+
+	para "Ton inventaire"
+	line "est plein!"
 	done
