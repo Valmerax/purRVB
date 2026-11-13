@@ -554,6 +554,7 @@ ExitStatusScreen:
 	ldh [hTileAnimations], a
 	call MaxVolume
 	call GBPalWhiteOut
+	call LoadFontTilePatterns
 	jp ClearScreen
 .select
 	call ToggleStatData
