@@ -524,7 +524,6 @@ DisplayDepositWithdrawMenu:
 	call LoadScreenTilesFromBuffer1
 	call ClearSprites
 	call ReloadTilesetTilePatterns
-	call LoadFontTilePatterns ; in the case of displaying pokemon status menu, Font needs to be reloaded
 	call LoadTextBoxTilePatterns
 	callfar LoadBillsPCExtraTiles ; in the case of displaying pokemon status menu, this needs to be reloaded
 	call RunDefaultPaletteCommand
