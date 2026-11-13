@@ -55,14 +55,14 @@ TwoOptionMenu::
 
 	ld a, 8
 	ld [wTopMenuItemY], a
-	ld a, 5
+	ld a, 3
 	ld [wTopMenuItemX], a
 
-	hlcoord 4, 7
-	lb bc, 3, 14  ; height, width
+	hlcoord 2, 7
+	lb bc, 3, 16  ; height, width
 	call TextBoxBorder
 
-	hlcoord 6, 8 ; where the list will be drawn at
+	hlcoord 4, 8 ; where the list will be drawn at
 	jp DoneDrawFunc
 
 TwoOptionSmallMenu::
@@ -338,13 +338,13 @@ CeladonMartCallMomQuestion4::
 	
 CeladonMartCallOakQuestion1::
 	dw TwoOptionMenu
-	db "Ca a évolué!"
-	next "J'adore!@"
+	db "Il a évolué!"
+	next "Je l'adore!@"
 
 CeladonMartCallOakQuestion2::
 	dw TwoOptionMenu
-	db "Comment va le lab?"
-	next "Comment va DAISY?@"
+	db "Ca va au labo?"
+	next "NINA va bien?@"
 
 BillsGardenBlueThanks::
 	dw TwoOptionMenu
