@@ -61,6 +61,8 @@
 	charmap "<BOLD_E>",  $65
 	charmap "<BOLD_T>",  $66
 
+	charmap "‘",         $70 ; opening single quote
+
 	charmap "<EXTRACLOSEQUOTE>", $73 ; closing quote ; PureRGBnote: CHANGED: crappier quotation mark 2 (unused)
 	charmap "·",         $74 ; middle dot
 	charmap "…",         $75 ; ellipsis
