@@ -91,7 +91,7 @@ GameCornerPrizeRoomPrizeKingText:
 	text_far_end _PrizeKingGotAnotherText
 
 PrizeKingName:
-	db "EXPERT PRIX@"
+	db "AS DES PRIX@"
 
 PrizeKingTextOrder:
 	db JYNX
