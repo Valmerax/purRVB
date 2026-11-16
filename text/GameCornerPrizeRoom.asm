@@ -25,8 +25,8 @@ _GameCornerPrizeRoomPrizeMasterText::
 	prompt
 
 _GameCornerPrizeRoomPrizeMasterAgainText::
-	text "Je suis le"
-	line "@"
+	text "Je suis"
+	line "l'@"
 	text_ram wTrainerName
 	text "!"
 	prompt

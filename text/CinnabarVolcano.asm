@@ -436,7 +436,8 @@ _VolcanoBlaineMessage1::
 	cont "jadis."
 	para "Tant pis!"
 	para "Je le reverrai"
-	line "peut-être un jour!"
+	line "peut-être un"
+	cont "jour!"
 	prompt
 
 _VolcanoBlaineMessageNotDone::

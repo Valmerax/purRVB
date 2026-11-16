@@ -78,7 +78,8 @@ _CeladonMartCallOakTextILoveIt::
 	para "Il a vraiment bien"
 	line "grandi!"
 	para "Je te le montrerai"
-	line "peut-être un jour!"
+	line "peut-être un"
+	cont "jour!"
 	prompt
 
 _CeladonMartCallOakTextKeepingBusy::
