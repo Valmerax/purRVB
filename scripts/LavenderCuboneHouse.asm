@@ -54,7 +54,7 @@ LavenderCuboneHouseBrunetteGirlText:
 	text_far_end _LavenderCuboneHouseBrunetteGirlGhostIsGoneText
 
 LadyName:
-	db "FILLE SYMPA@"
+	db "FILLE COOL@"
 
 LightChannelerText:
 	text_asm
