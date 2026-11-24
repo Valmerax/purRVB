@@ -1,5 +1,6 @@
 _FuchsiaTreeDeleterText1::
-	text "Hein? <...>Oh, oui<...>"
+	text "Hein? <...>"
+	line "Oh, oui<...>"
 	para "Je suis le"
 	line "@"
 	text_ram wTrainerName

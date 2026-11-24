@@ -1,6 +1,6 @@
 _DarkChannelerGreeting::
-	text "Je suis"
-	line "l'EXORCISTE SOMBRE."
+	text "Je suis l'EXORCISTE"
+	line "SOMBRE."
 	prompt
 
 _DarkChannelerGreeting2::
@@ -12,7 +12,7 @@ _DarkChannelerGreeting2::
 	para "C'est terrifiant!"
 	para "Seuls les"
 	line "EXORCISTES"
-	cont "peuvent s'y rendre."
+	cont "peuvent passer."
 	prompt
 
 _DarkChannelerBackToMyself::

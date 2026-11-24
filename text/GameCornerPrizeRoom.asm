@@ -61,8 +61,9 @@ _ElectabuzzPrizeKingText::
 	text_ram_namebuffer
 	text " lance"
 	line "de puissantes"
-	cont "attaques PHYS."
-	cont "ou SPECIALES!"
+	cont "attaques"
+	cont "PHYSIQUES ou"
+	cont "SPECIALES!"
 	para "Il peut se soigner"
 	line "avec VAMPIPOING!"
 	done

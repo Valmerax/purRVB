@@ -121,7 +121,7 @@ _WannaTrade2Text::
 	done
 
 _TradeColorPaletteText::
-	text "C'est une couleur"
+	text "Il a une couleur"
 	line "rare et spéciale!"
 	done
 

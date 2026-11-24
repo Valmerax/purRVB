@@ -39,7 +39,7 @@ _LearnsetGoldeen::
 	text_ram_namebuffer
 	text " utilise"
 	line "ULTRASON pour se"
-	cont "dégager."
+	cont "repérer."
 	para "J'adore"
 	line "@"
 	text_ram_namebuffer

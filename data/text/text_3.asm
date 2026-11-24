@@ -442,6 +442,7 @@ _ScreechesPreventedSleepText::
 
 _LetOutAScreechText::
 	text "Mais soudain!"
-	para "<TARGET> émet"
-	line "un GRINCEMENT!"
+	para "<TARGET>"
+	line "émet un"
+	cont "GRINCEMENT!"
 	prompt

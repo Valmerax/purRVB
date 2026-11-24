@@ -68,7 +68,7 @@ _Route17Biker4AfterBattleText::
 	done
 
 _Route17Biker5BattleText::
-	text "Mes VOLTORBE vont"
+	text "Mon ELECTRODE va"
 	line "t'électrocuter!"
 	done
 
@@ -80,7 +80,7 @@ _Route17Biker5EndBattleText::
 
 _Route17Biker5AfterBattleText::
 	text "J'ai attrapé"
-	line "un VOLTORBE dans"
+	line "un ELECTRODE dans"
 	cont "la CENTRALE."
 	done
 
