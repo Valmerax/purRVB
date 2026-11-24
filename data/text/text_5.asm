@@ -19,7 +19,7 @@ _CanMoveBouldersText::
 	text_start
 	line "peut bouger"
 	cont "les rochers."
-	prompt
+	done
 
 _CurrentTooFastText::
 	text_start
